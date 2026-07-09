@@ -40,7 +40,7 @@ summary for each case.
 - `assets/models/model_MPNN_CNN/`: local DeepPurpose DTI model.
 - `assets/templates/report_template.html`: HTML report template.
 - `experiments/`: model scoring, calibration, ablation, and analysis utilities.
-- `scripts/`: benchmark, baseline, figure, reporting, and experiment scripts.
+- `scripts/`: curated analysis, baseline, argument-scorer, and evidence-graph experiment entry points.
 - `tests/`: lightweight unit tests for orchestration and scoring utilities.
 
 Large runtime files are tracked with Git LFS. After cloning, run `git lfs pull`
@@ -218,9 +218,10 @@ python data/diseasekb/build_diseasekb_jsonl.py
 Experiment and analysis utilities are organized under:
 
 - `experiments/orchestration/`: scoring, calibration, and ablation utilities.
-- `scripts/analysis/`: figure rendering and final-result analysis.
-- `scripts/baselines/`: baseline submission helpers.
-- `scripts/full/` and `scripts/eg/`: TreatAgent experiment runners.
+- `scripts/eg/`: evidence-graph TreatAgent experiment and scorer runners.
+- `scripts/arg/`: argument-scorer training and ablation runners.
+- `scripts/baselines/`: RAG and raw-feature baseline runners.
+- `scripts/analysis/`: final-result summaries and publication-figure rendering.
 
 ## Testing
 

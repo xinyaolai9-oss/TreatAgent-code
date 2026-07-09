@@ -121,17 +121,18 @@ def test_llm_planner_accepts_valid_action_case_insensitive():
     assert decision["planner_type"] == "llm_constrained"
 
 
-def test_llm_planner_rejects_low_utility_action_after_budget():
+def test_llm_planner_rejects_low_utility_admet_action_after_budget():
     orchestrator = TreatAgentOrchestrator.__new__(TreatAgentOrchestrator)
     orchestrator.planner_budget = 3
-    parsed = {"next_action": "Clinical", "reason": "Clinical prior might help."}
+    orchestrator.arg_threshold = 0.36
+    parsed = {"next_action": "ADMET", "reason": "Safety might help."}
 
     decision = orchestrator._validate_llm_planner_decision(
         parsed=parsed,
-        allowed_actions=["Clinical", "STOP"],
-        static_output={"next_action": "Clinical", "reason": "Clinical prior is missing."},
+        allowed_actions=["ADMET", "STOP"],
+        static_output={"next_action": "ADMET", "reason": "Safety evidence is missing."},
         planner_state={
-            "evidence_gaps": {"Clinical": True},
+            "evidence_gaps": {"ADMET": True},
             "evidence_agents_covered": 3,
             "conflict_high": False,
             "mechanism_conflict_high": False,

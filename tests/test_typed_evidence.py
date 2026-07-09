@@ -23,7 +23,9 @@ def test_legacy_evidence_to_typed_tuple_for_drugkb_target():
     assert typed.subject == "CCO"
     assert typed.relation == "targets"
     assert typed.object == "TNF"
-    assert typed.direction == "support"
+    assert typed.direction == "neutral"
+    assert typed.semantic_role == "drug_target"
+    assert "grounding" in typed.grounding_requirement.lower()
     assert typed.match_type == "canonical_smiles"
     assert typed.timestamp == "2024-01-01"
     assert 0 < typed.reliability <= 1
