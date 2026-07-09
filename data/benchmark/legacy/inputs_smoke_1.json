@@ -1,0 +1,7 @@
+[
+  {
+    "label": 1,
+    "disease": "hormone refractory prostate cancer",
+    "smiles": "[H]\\C(=C(\\C)[C@]1([H])C[C@]2([H])O[C@]2(C)CCC[C@]([H])(C)[C@]([H])(O)[C@@]([H])(C)C(=O)C(C)(C)[C@@]([H])(O)CC(=O)O1)C1=CSC(C)=N1"
+  }
+]

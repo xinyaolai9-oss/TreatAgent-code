@@ -1,0 +1,24 @@
+name: treatagent
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - admet_ai
+      - DeepPurpose==0.1.5
+      - chembl_webresource_client
+      - openai
+      - pyautogen==0.2.31
+      - requests
+      - scikit-learn
+      - chromadb
+      - sentence-transformers
+      - pyarrow
+      - numpy
+      - pandas
+      - matplotlib
+      - Pillow
+      - certifi
+      - rdkit

@@ -1,0 +1,191 @@
+{
+  "extraction": {
+    "raw_rows": 17614,
+    "parse_errors": 0,
+    "single_disease_single_smiles_rows": 5143,
+    "filtered_disease_rows": 1185,
+    "kept_rows": 3958,
+    "label_counts": {
+      "0": 1760,
+      "1": 2198
+    }
+  },
+  "dedup": {
+    "input_rows": 3958,
+    "valid_canonical_smiles_rows": 3958,
+    "invalid_smiles_rows": 0,
+    "unique_pair_candidates": 2455,
+    "pair_rows": 2160,
+    "conflict_pairs_removed": 295,
+    "label_counts": {
+      "0": 1054,
+      "1": 1106
+    },
+    "unique_drugs": 828,
+    "unique_diseases": 686
+  },
+  "splits": {
+    "seed": 13,
+    "random": {
+      "train": {
+        "rows": 1512,
+        "label_counts": {
+          "1": 774,
+          "0": 738
+        },
+        "unique_drugs": 669,
+        "unique_diseases": 567
+      },
+      "val": {
+        "rows": 216,
+        "label_counts": {
+          "0": 105,
+          "1": 111
+        },
+        "unique_drugs": 156,
+        "unique_diseases": 168
+      },
+      "test": {
+        "rows": 432,
+        "label_counts": {
+          "1": 221,
+          "0": 211
+        },
+        "unique_drugs": 270,
+        "unique_diseases": 252
+      },
+      "drug_overlap": {
+        "train_val": 101,
+        "train_test": 156,
+        "val_test": 62
+      }
+    },
+    "drug_disjoint": {
+      "train": {
+        "rows": 1512,
+        "label_counts": {
+          "1": 745,
+          "0": 767
+        },
+        "unique_drugs": 362,
+        "unique_diseases": 594
+      },
+      "val": {
+        "rows": 216,
+        "label_counts": {
+          "0": 96,
+          "1": 120
+        },
+        "unique_drugs": 193,
+        "unique_diseases": 145
+      },
+      "test": {
+        "rows": 432,
+        "label_counts": {
+          "0": 191,
+          "1": 241
+        },
+        "unique_drugs": 273,
+        "unique_diseases": 237
+      },
+      "drug_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      }
+    }
+  },
+  "temporal": {
+    "pair_rows": 2160,
+    "dated_rows": 2160,
+    "undated_rows": 0,
+    "date_source_counts": {
+      "study_first_submit_date": 1663,
+      "primary_completion_date": 469,
+      "completion_date": 28
+    },
+    "temporal": {
+      "train": {
+        "rows": 1512,
+        "label_counts": {
+          "0": 765,
+          "1": 747
+        },
+        "unique_drugs": 660,
+        "unique_diseases": 507,
+        "date_min": "1999-11-01",
+        "date_max": "2013-04-11"
+      },
+      "val": {
+        "rows": 216,
+        "label_counts": {
+          "1": 114,
+          "0": 102
+        },
+        "unique_drugs": 141,
+        "unique_diseases": 175,
+        "date_min": "2013-04-16",
+        "date_max": "2015-07-16"
+      },
+      "test": {
+        "rows": 432,
+        "label_counts": {
+          "0": 187,
+          "1": 245
+        },
+        "unique_drugs": 243,
+        "unique_diseases": 290,
+        "date_min": "2015-07-24",
+        "date_max": "2026-12-31"
+      }
+    }
+  },
+  "temporal_study_first_submit": {
+    "date_policy": "study_first_submit",
+    "date_fields": [
+      "study_first_submit_date"
+    ],
+    "split_prefix": "temporal_submit",
+    "pair_rows": 2160,
+    "dated_rows": 2160,
+    "undated_rows": 0,
+    "date_source_counts": {
+      "study_first_submit_date": 2160
+    },
+    "temporal": {
+      "train": {
+        "rows": 1512,
+        "label_counts": {
+          "0": 761,
+          "1": 751
+        },
+        "unique_drugs": 665,
+        "unique_diseases": 507,
+        "date_min": "1999-11-01",
+        "date_max": "2012-09-03"
+      },
+      "val": {
+        "rows": 216,
+        "label_counts": {
+          "0": 98,
+          "1": 118
+        },
+        "unique_drugs": 140,
+        "unique_diseases": 165,
+        "date_min": "2012-09-04",
+        "date_max": "2014-02-27"
+      },
+      "test": {
+        "rows": 432,
+        "label_counts": {
+          "0": 195,
+          "1": 237
+        },
+        "unique_drugs": 242,
+        "unique_diseases": 293,
+        "date_min": "2014-02-28",
+        "date_max": "2019-03-20"
+      }
+    }
+  }
+}

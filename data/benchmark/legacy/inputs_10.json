@@ -1,0 +1,52 @@
+[
+  {
+    "label": 1,
+    "disease": "hormone refractory prostate cancer",
+    "smiles": "[H]\\C(=C(\\C)[C@]1([H])C[C@]2([H])O[C@]2(C)CCC[C@]([H])(C)[C@]([H])(O)[C@@]([H])(C)C(=O)C(C)(C)[C@@]([H])(O)CC(=O)O1)C1=CSC(C)=N1"
+  },
+  {
+    "label": 1,
+    "disease": "psoriasis vulgaris",
+    "smiles": "[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C"
+  },
+  {
+    "label": 0,
+    "disease": "lung cancer",
+    "smiles": "[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C"
+  },
+  {
+    "label": 0,
+    "disease": "hepatocellular carcinoma",
+    "smiles": "CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1"
+  },
+  {
+    "label": 0,
+    "disease": "cardiac disease",
+    "smiles": "CCCCC1=C(C(=O)C2=CC(I)=C(OCCN(CC)CC)C(I)=C2)C2=C(O1)C=CC=C2"
+  },
+  {
+    "label": 1,
+    "disease": "acute lymphoblastic leukemia",
+    "smiles": "[H][C@]1(F)[C@H](O)[C@@H](CO)O[C@H]1N1C=NC2=C(N)N=C(Cl)N=C12"
+  },
+  {
+    "label": 1,
+    "disease": "gastroesophageal reflux disease",
+    "smiles": "CC1=C(OCC(F)(F)F)C=CN=C1CS(=O)C1=NC2=CC=CC=C2N1"
+  },
+  {
+    "label": 0,
+    "disease": "colorectal cancer",
+    "smiles": "CC1=C(CO)C2=C(C)C3(CC3)[C@@](C)(O)C(=O)C2=C1"
+  },
+  {
+    "label": 1,
+    "disease": "attention deficit disorder with hyperactivity",
+    "smiles": "OC1(N2CCN=C2C2=CC=CC=C12)C1=CC=C(Cl)C=C1"
+  },
+  {
+    "label": 0,
+    "disease": "heart transplantation",
+    "smiles": "COC1=C(C\\C=C(/C)CCC(=O)OCCN2CCOCC2)C(O)=C2C(=O)OCC2=C1C"
+  }
+]

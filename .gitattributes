@@ -1,0 +1,11 @@
+# Large runtime data. Use Git LFS before pushing this repository to GitHub:
+#   git lfs install
+#   git lfs track "data/diseasekb/diseasekb.jsonl"
+#   git lfs track "data/benchmark/raw_data.csv"
+#   git lfs track "*.pt"
+#   git lfs track "*.pkl"
+data/diseasekb/diseasekb.jsonl filter=lfs diff=lfs merge=lfs -text
+data/benchmark/raw_data.csv filter=lfs diff=lfs merge=lfs -text
+results/**/*.json filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text

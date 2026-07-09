@@ -1,0 +1,45 @@
+{
+  "pair_rows": 2160,
+  "dated_rows": 2160,
+  "undated_rows": 0,
+  "date_source_counts": {
+    "study_first_submit_date": 1663,
+    "primary_completion_date": 469,
+    "completion_date": 28
+  },
+  "temporal": {
+    "train": {
+      "rows": 1512,
+      "label_counts": {
+        "0": 765,
+        "1": 747
+      },
+      "unique_drugs": 660,
+      "unique_diseases": 507,
+      "date_min": "1999-11-01",
+      "date_max": "2013-04-11"
+    },
+    "val": {
+      "rows": 216,
+      "label_counts": {
+        "1": 114,
+        "0": 102
+      },
+      "unique_drugs": 141,
+      "unique_diseases": 175,
+      "date_min": "2013-04-16",
+      "date_max": "2015-07-16"
+    },
+    "test": {
+      "rows": 432,
+      "label_counts": {
+        "0": 187,
+        "1": 245
+      },
+      "unique_drugs": 243,
+      "unique_diseases": 290,
+      "date_min": "2015-07-24",
+      "date_max": "2026-12-31"
+    }
+  }
+}

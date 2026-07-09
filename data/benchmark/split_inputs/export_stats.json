@@ -1,0 +1,50 @@
+{
+  "drug_disjoint_test": {
+    "rows": 432,
+    "output": "data\\benchmark\\split_inputs\\drug_disjoint_test.json"
+  },
+  "drug_disjoint_train": {
+    "rows": 1512,
+    "output": "data\\benchmark\\split_inputs\\drug_disjoint_train.json"
+  },
+  "drug_disjoint_val": {
+    "rows": 216,
+    "output": "data\\benchmark\\split_inputs\\drug_disjoint_val.json"
+  },
+  "random_test": {
+    "rows": 432,
+    "output": "data\\benchmark\\split_inputs\\random_test.json"
+  },
+  "random_train": {
+    "rows": 1512,
+    "output": "data\\benchmark\\split_inputs\\random_train.json"
+  },
+  "random_val": {
+    "rows": 216,
+    "output": "data\\benchmark\\split_inputs\\random_val.json"
+  },
+  "temporal_submit_test": {
+    "rows": 432,
+    "output": "data\\benchmark\\split_inputs\\temporal_submit_test.json"
+  },
+  "temporal_submit_train": {
+    "rows": 1512,
+    "output": "data\\benchmark\\split_inputs\\temporal_submit_train.json"
+  },
+  "temporal_submit_val": {
+    "rows": 216,
+    "output": "data\\benchmark\\split_inputs\\temporal_submit_val.json"
+  },
+  "temporal_test": {
+    "rows": 432,
+    "output": "data\\benchmark\\split_inputs\\temporal_test.json"
+  },
+  "temporal_train": {
+    "rows": 1512,
+    "output": "data\\benchmark\\split_inputs\\temporal_train.json"
+  },
+  "temporal_val": {
+    "rows": 216,
+    "output": "data\\benchmark\\split_inputs\\temporal_val.json"
+  }
+}

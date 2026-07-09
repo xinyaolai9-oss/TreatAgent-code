@@ -1,0 +1,2755 @@
+[
+  {
+    "input": "data\\benchmark\\split_inputs\\drug_disjoint_train.json",
+    "rows": 1512,
+    "unique_smiles": 362,
+    "matched_rows": 923,
+    "matched_rate": 0.6104,
+    "unique_matched_drugcentral_records": 306,
+    "match_methods": {
+      "canonical_smiles": 41,
+      "drug_name": 747,
+      "drug_name_contains": 135,
+      "unmatched": 589
+    },
+    "match_methods_by_label": {
+      "0": {
+        "drug_name": 409,
+        "unmatched": 279,
+        "canonical_smiles": 21,
+        "drug_name_contains": 58
+      },
+      "1": {
+        "drug_name": 338,
+        "unmatched": 310,
+        "drug_name_contains": 77,
+        "canonical_smiles": 20
+      }
+    },
+    "matched_examples": [
+      {
+        "sample_id": "PAIR-000731",
+        "label": 1,
+        "disease": "psychosis",
+        "query_drugs": [
+          "asenapine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "asenapine"
+      },
+      {
+        "sample_id": "PAIR-000147",
+        "label": 0,
+        "disease": "colorectal neoplasms",
+        "query_drugs": [
+          "abi-007"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "paclitaxel"
+      },
+      {
+        "sample_id": "PAIR-000812",
+        "label": 0,
+        "disease": "stomach neoplasms",
+        "query_drugs": [
+          "sunitinib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sunitinib"
+      },
+      {
+        "sample_id": "PAIR-000776",
+        "label": 0,
+        "disease": "gastric cancer",
+        "query_drugs": [
+          "sorafenib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sorafenib"
+      },
+      {
+        "sample_id": "PAIR-000186",
+        "label": 0,
+        "disease": "benign prostatic hyperplasia",
+        "query_drugs": [
+          "finasteride and alfuzosin"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "finasteride"
+      },
+      {
+        "sample_id": "PAIR-000702",
+        "label": 1,
+        "disease": "atrial fibrillation",
+        "query_drugs": [
+          "propafenone; flecainide; sotalol; dofetilide"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "propafenone"
+      },
+      {
+        "sample_id": "PAIR-000068",
+        "label": 0,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "vitamin d"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.94,
+        "matched_drug": "ergocalciferol"
+      },
+      {
+        "sample_id": "PAIR-000822",
+        "label": 1,
+        "disease": "schizophrenia",
+        "query_drugs": [
+          "olanzapine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "olanzapine"
+      },
+      {
+        "sample_id": "PAIR-002010",
+        "label": 0,
+        "disease": "psoriasis",
+        "query_drugs": [
+          "humira then humira plus 3 b vitamins"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "adalimumab"
+      },
+      {
+        "sample_id": "PAIR-001036",
+        "label": 1,
+        "disease": "rheumatoid arthritis",
+        "query_drugs": [
+          "tacrolimus",
+          "tacrolimus with methotrexate"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "tacrolimus"
+      },
+      {
+        "sample_id": "PAIR-001060",
+        "label": 0,
+        "disease": "head and neck neoplasms",
+        "query_drugs": [
+          "gefitinib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "gefitinib"
+      },
+      {
+        "sample_id": "PAIR-000992",
+        "label": 0,
+        "disease": "venous thrombosis",
+        "query_drugs": [
+          "arixtra (fondaparinux sodium)"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "fondaparinux"
+      },
+      {
+        "sample_id": "PAIR-001857",
+        "label": 0,
+        "disease": "ischemic stroke",
+        "query_drugs": [
+          "clopidogrel"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "clopidogrel"
+      },
+      {
+        "sample_id": "PAIR-001291",
+        "label": 0,
+        "disease": "prostate cancer",
+        "query_drugs": [
+          "fulvestrant"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "fulvestrant"
+      },
+      {
+        "sample_id": "PAIR-001166",
+        "label": 1,
+        "disease": "myelodysplastic syndrome",
+        "query_drugs": [
+          "treosulfan"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "treosulfan"
+      },
+      {
+        "sample_id": "PAIR-001043",
+        "label": 0,
+        "disease": "heart failure",
+        "query_drugs": [
+          "ivabradine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "ivabradine"
+      },
+      {
+        "sample_id": "PAIR-001809",
+        "label": 0,
+        "disease": "myelodysplastic syndrome",
+        "query_drugs": [
+          "temsirolimus"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "temsirolimus"
+      },
+      {
+        "sample_id": "PAIR-001078",
+        "label": 0,
+        "disease": "uterine cancer",
+        "query_drugs": [
+          "celecoxib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "celecoxib"
+      },
+      {
+        "sample_id": "PAIR-002108",
+        "label": 1,
+        "disease": "cystic fibrosis",
+        "query_drugs": [
+          "ataluren",
+          "ptc124"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "ataluren"
+      },
+      {
+        "sample_id": "PAIR-000523",
+        "label": 0,
+        "disease": "metabolic syndrome x",
+        "query_drugs": [
+          "telmisartan (micardis®) vs. placebo"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "telmisartan"
+      }
+    ],
+    "unmatched_examples": [
+      {
+        "sample_id": "PAIR-001553",
+        "label": 1,
+        "disease": "benign prostatic hyperplasia",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000604",
+        "label": 0,
+        "disease": "lymphoma",
+        "query_drugs": [
+          "aminocamptothecin"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001802",
+        "label": 0,
+        "disease": "myelodysplastic syndromes",
+        "query_drugs": [
+          "tipifarnib"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002206",
+        "label": 1,
+        "disease": "pancreatic ductal adenocarcinoma",
+        "query_drugs": [
+          "modified folfirinox regimen"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002065",
+        "label": 1,
+        "disease": "sarcoma",
+        "query_drugs": [
+          "kcp-330"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000226",
+        "label": 0,
+        "disease": "multiple myeloma",
+        "query_drugs": [
+          "cep-18770"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000001",
+        "label": 0,
+        "disease": "liver transplantation",
+        "query_drugs": [
+          "fk778"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001519",
+        "label": 0,
+        "disease": "acute ischemic stroke",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001897",
+        "label": 0,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "pyrazoloacridine"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002140",
+        "label": 1,
+        "disease": "major depressive disorder",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002374",
+        "label": 1,
+        "disease": "chronic kidney disease",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000388",
+        "label": 0,
+        "disease": "melanoma",
+        "query_drugs": [
+          "chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001672",
+        "label": 0,
+        "disease": "malignant pleural mesothelioma",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001516",
+        "label": 0,
+        "disease": "acute coronary syndromes",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001522",
+        "label": 0,
+        "disease": "acute myeloid leukemia",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001853",
+        "label": 0,
+        "disease": "heart transplantation",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000394",
+        "label": 0,
+        "disease": "rectal cancer",
+        "query_drugs": [
+          "intensified preoperative chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002334",
+        "label": 1,
+        "disease": "macular edema associated with diabetes mellitus",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001929",
+        "label": 1,
+        "disease": "proliferative diabetic retinopathy",
+        "query_drugs": [
+          "emixustat hydrochloride"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000873",
+        "label": 1,
+        "disease": "diabetic nephropathy",
+        "query_drugs": [
+          "rta 402 (bardoxolone methyl)"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      }
+    ]
+  },
+  {
+    "input": "data\\benchmark\\split_inputs\\drug_disjoint_val.json",
+    "rows": 216,
+    "unique_smiles": 193,
+    "matched_rows": 121,
+    "matched_rate": 0.5602,
+    "unique_matched_drugcentral_records": 109,
+    "match_methods": {
+      "canonical_smiles": 14,
+      "drug_name": 85,
+      "drug_name_contains": 19,
+      "relaxed_smiles": 3,
+      "unmatched": 95
+    },
+    "match_methods_by_label": {
+      "0": {
+        "unmatched": 46,
+        "drug_name_contains": 7,
+        "drug_name": 38,
+        "canonical_smiles": 5
+      },
+      "1": {
+        "drug_name": 47,
+        "unmatched": 49,
+        "drug_name_contains": 12,
+        "canonical_smiles": 9,
+        "relaxed_smiles": 3
+      }
+    },
+    "matched_examples": [
+      {
+        "sample_id": "PAIR-000890",
+        "label": 1,
+        "disease": "gastroesophageal reflux disease",
+        "query_drugs": [
+          "rabeprazole 20 mg",
+          "rabeprazole sodium"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "rabeprazole"
+      },
+      {
+        "sample_id": "PAIR-000425",
+        "label": 1,
+        "disease": "acute myeloid leukemia",
+        "query_drugs": [
+          "elacytarabine plus idarubicin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "idarubicin"
+      },
+      {
+        "sample_id": "PAIR-000479",
+        "label": 1,
+        "disease": "hypoactive sexual desire disorder",
+        "query_drugs": [
+          "bremelanotide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "bremelanotide"
+      },
+      {
+        "sample_id": "PAIR-001916",
+        "label": 0,
+        "disease": "autism spectrum disorder",
+        "query_drugs": [
+          "baclofen, intrathecal"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "baclofen"
+      },
+      {
+        "sample_id": "PAIR-001117",
+        "label": 1,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "epirubicin, cyclophosphamide, paclitaxel, carboplatin, g-csf"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "epirubicin"
+      },
+      {
+        "sample_id": "PAIR-002342",
+        "label": 1,
+        "disease": "asthma",
+        "query_drugs": [
+          "mannitol challenge test & reversibility test"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "mannitol"
+      },
+      {
+        "sample_id": "PAIR-000138",
+        "label": 0,
+        "disease": "neurotoxicity syndromes",
+        "query_drugs": [
+          "dextromethorphan"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "dextromethorphan"
+      },
+      {
+        "sample_id": "PAIR-002025",
+        "label": 1,
+        "disease": "gastric cancer",
+        "query_drugs": [
+          "irinotecan associated to fluorouracil and leucovorin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "leucovorin"
+      },
+      {
+        "sample_id": "PAIR-001165",
+        "label": 0,
+        "disease": "refractory brain tumors",
+        "query_drugs": [
+          "busulfan"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "busulfan"
+      },
+      {
+        "sample_id": "PAIR-001925",
+        "label": 1,
+        "disease": "acromegaly",
+        "query_drugs": [
+          "pasireotide",
+          "pasireotide (som230), octreotide (sandostatin)"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "pasireotide"
+      },
+      {
+        "sample_id": "PAIR-001931",
+        "label": 1,
+        "disease": "acute myeloid leukemia",
+        "query_drugs": [
+          "histamine dihydrochloride and il-2"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "histamine"
+      },
+      {
+        "sample_id": "PAIR-000242",
+        "label": 0,
+        "disease": "major depression",
+        "query_drugs": [
+          "pindolol and venlafaxin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "pindolol"
+      },
+      {
+        "sample_id": "PAIR-000214",
+        "label": 1,
+        "disease": "adjunctive treatment of major depressive disorder",
+        "query_drugs": [
+          "pimavanserin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "pimavanserin"
+      },
+      {
+        "sample_id": "PAIR-001044",
+        "label": 1,
+        "disease": "tardive dyskinesia",
+        "query_drugs": [
+          "nbi-98854"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "valbenazine"
+      },
+      {
+        "sample_id": "PAIR-002347",
+        "label": 1,
+        "disease": "osteoarthritis of the knee",
+        "query_drugs": [],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "sucrose"
+      },
+      {
+        "sample_id": "PAIR-000726",
+        "label": 0,
+        "disease": "dravet syndrome",
+        "query_drugs": [
+          "clobazam"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "clobazam"
+      },
+      {
+        "sample_id": "PAIR-001489",
+        "label": 1,
+        "disease": "autism",
+        "query_drugs": [
+          "paliperidone er"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.8889,
+        "matched_drug": "paliperidone"
+      },
+      {
+        "sample_id": "PAIR-001003",
+        "label": 1,
+        "disease": "diabetic foot infections",
+        "query_drugs": [
+          "tg-873870 (nemonoxacin)"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "nemonoxacin"
+      },
+      {
+        "sample_id": "PAIR-001930",
+        "label": 1,
+        "disease": "cystic fibrosis",
+        "query_drugs": [
+          "liposomal amikacin for inhalation"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "amikacin"
+      },
+      {
+        "sample_id": "PAIR-001882",
+        "label": 1,
+        "disease": "overactive bladder",
+        "query_drugs": [
+          "darifenacin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "darifenacin"
+      }
+    ],
+    "unmatched_examples": [
+      {
+        "sample_id": "PAIR-002143",
+        "label": 0,
+        "disease": "diabetic neuropathy",
+        "query_drugs": [
+          "ranirestat, (as-3201)"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001818",
+        "label": 0,
+        "disease": "major depressive disorder",
+        "query_drugs": [
+          "cp-601,927"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000889",
+        "label": 1,
+        "disease": "hypertension",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000926",
+        "label": 1,
+        "disease": "obesity",
+        "query_drugs": [
+          "zgn-433"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001884",
+        "label": 0,
+        "disease": "renal cell carcinoma",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000198",
+        "label": 1,
+        "disease": "hypercholesterolemia",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001028",
+        "label": 1,
+        "disease": "advanced solid tumors",
+        "query_drugs": [
+          "anlotinib and 14c-labeled anlotinib"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000419",
+        "label": 1,
+        "disease": "constipation",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001820",
+        "label": 1,
+        "disease": "schizophrenia",
+        "query_drugs": [
+          "jnj-37822681"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001446",
+        "label": 0,
+        "disease": "small cell lung cancer",
+        "query_drugs": [
+          "picoplatin"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000632",
+        "label": 1,
+        "disease": "clostridium difficile infection",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001342",
+        "label": 1,
+        "disease": "hiv infection",
+        "query_drugs": [
+          "dapivirine (tmc120) vaginal gel"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002312",
+        "label": 1,
+        "disease": "adenocarcinoma",
+        "query_drugs": [
+          "axp107-11"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000751",
+        "label": 1,
+        "disease": "pain",
+        "query_drugs": [
+          "alo-01 (morphine sulfate plus naltrexone hydrochloride er)"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001338",
+        "label": 0,
+        "disease": "hiv infection",
+        "query_drugs": [
+          "tmc278la"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001506",
+        "label": 0,
+        "disease": "hypertension",
+        "query_drugs": [
+          "alagebrium chloride (alt-711)"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002130",
+        "label": 1,
+        "disease": "breast cancer",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001883",
+        "label": 0,
+        "disease": "ovarian cancer",
+        "query_drugs": [
+          "ec-17"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002322",
+        "label": 1,
+        "disease": "autism spectrum disorders",
+        "query_drugs": [
+          "tideglusib"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000325",
+        "label": 0,
+        "disease": "psoriasis",
+        "query_drugs": [
+          "bicillin l-a"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      }
+    ]
+  },
+  {
+    "input": "data\\benchmark\\split_inputs\\drug_disjoint_test.json",
+    "rows": 432,
+    "unique_smiles": 273,
+    "matched_rows": 276,
+    "matched_rate": 0.6389,
+    "unique_matched_drugcentral_records": 194,
+    "match_methods": {
+      "canonical_smiles": 15,
+      "drug_name": 192,
+      "drug_name_contains": 68,
+      "drug_name_fuzzy": 1,
+      "unmatched": 156
+    },
+    "match_methods_by_label": {
+      "0": {
+        "drug_name_contains": 26,
+        "unmatched": 77,
+        "drug_name": 78,
+        "canonical_smiles": 9,
+        "drug_name_fuzzy": 1
+      },
+      "1": {
+        "drug_name": 114,
+        "unmatched": 79,
+        "drug_name_contains": 42,
+        "canonical_smiles": 6
+      }
+    },
+    "matched_examples": [
+      {
+        "sample_id": "PAIR-002391",
+        "label": 0,
+        "disease": "bipolar disorder",
+        "query_drugs": [
+          "lithium or lamotrigine"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "lamotrigine"
+      },
+      {
+        "sample_id": "PAIR-000177",
+        "label": 1,
+        "disease": "epilepsy",
+        "query_drugs": [
+          "ganaxolone"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "ganaxolone"
+      },
+      {
+        "sample_id": "PAIR-000583",
+        "label": 1,
+        "disease": "peripheral arterial disease",
+        "query_drugs": [
+          "ramipril"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "ramipril"
+      },
+      {
+        "sample_id": "PAIR-000088",
+        "label": 1,
+        "disease": "lung cancer",
+        "query_drugs": [
+          "azd9291 dosing"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "osimertinib"
+      },
+      {
+        "sample_id": "PAIR-001006",
+        "label": 0,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "zafirlukast"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "zafirlukast"
+      },
+      {
+        "sample_id": "PAIR-000212",
+        "label": 1,
+        "disease": "obesity",
+        "query_drugs": [
+          "sibutramine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sibutramine"
+      },
+      {
+        "sample_id": "PAIR-000093",
+        "label": 0,
+        "disease": "chronic kidney disease",
+        "query_drugs": [
+          "sevelamer carbonate"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sevelamer carbonate"
+      },
+      {
+        "sample_id": "PAIR-001886",
+        "label": 1,
+        "disease": "menopause",
+        "query_drugs": [
+          "armodafinil"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "armodafinil"
+      },
+      {
+        "sample_id": "PAIR-001239",
+        "label": 1,
+        "disease": "irritable bowel syndrome",
+        "query_drugs": [
+          "linaclotide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "linaclotide"
+      },
+      {
+        "sample_id": "PAIR-001262",
+        "label": 0,
+        "disease": "mucositis",
+        "query_drugs": [
+          "doxycycline hyclate"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "doxycycline"
+      },
+      {
+        "sample_id": "PAIR-000051",
+        "label": 0,
+        "disease": "graft versus host disease",
+        "query_drugs": [
+          "romidepsin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "romidepsin"
+      },
+      {
+        "sample_id": "PAIR-000114",
+        "label": 0,
+        "disease": "kidney diseases",
+        "query_drugs": [
+          "sirolimus"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sirolimus"
+      },
+      {
+        "sample_id": "PAIR-001026",
+        "label": 1,
+        "disease": "thyroid cancer",
+        "query_drugs": [
+          "zd6474 (vandetanib)"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "vandetanib"
+      },
+      {
+        "sample_id": "PAIR-000089",
+        "label": 1,
+        "disease": "non small cell lung cancer",
+        "query_drugs": [
+          "azd9291"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "osimertinib"
+      },
+      {
+        "sample_id": "PAIR-002306",
+        "label": 1,
+        "disease": "metastatic colorectal cancer",
+        "query_drugs": [
+          "s-1+leucovorin"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "leucovorin"
+      },
+      {
+        "sample_id": "PAIR-001251",
+        "label": 1,
+        "disease": "autism spectrum disorder",
+        "query_drugs": [
+          "sapropterin dihydrochloride"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sapropterin"
+      },
+      {
+        "sample_id": "PAIR-000402",
+        "label": 1,
+        "disease": "inflammation",
+        "query_drugs": [
+          "difluprednate"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "difluprednate"
+      },
+      {
+        "sample_id": "PAIR-001416",
+        "label": 1,
+        "disease": "primary open angle glaucoma or ocular hypertension",
+        "query_drugs": [
+          "netarsudil ophthalmic solution 0.02%"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "netarsudil"
+      },
+      {
+        "sample_id": "PAIR-000448",
+        "label": 1,
+        "disease": "venous thromboembolism",
+        "query_drugs": [
+          "dabigatran",
+          "dabigatran etexilate"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "dabigatran etexilate"
+      },
+      {
+        "sample_id": "PAIR-001161",
+        "label": 0,
+        "disease": "cancer",
+        "query_drugs": [
+          "oral lapatinib tablets or placebo tablets"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "lapatinib"
+      }
+    ],
+    "unmatched_examples": [
+      {
+        "sample_id": "PAIR-000056",
+        "label": 0,
+        "disease": "multiple sclerosis",
+        "query_drugs": [
+          "smoked cannabis"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000557",
+        "label": 0,
+        "disease": "coronary disease",
+        "query_drugs": [
+          "ins50589 intravenous infusion"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001495",
+        "label": 0,
+        "disease": "irritable colon",
+        "query_drugs": [
+          "gw876008"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001496",
+        "label": 0,
+        "disease": "psoriasis",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001255",
+        "label": 1,
+        "disease": "cutaneous lupus erythematosus",
+        "query_drugs": [
+          "ivig"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000475",
+        "label": 0,
+        "disease": "hiv infection",
+        "query_drugs": [
+          "gw873140"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001081",
+        "label": 1,
+        "disease": "chronic obstructive lung disease",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000865",
+        "label": 1,
+        "disease": "essential hypertension",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000922",
+        "label": 1,
+        "disease": "advanced solid tumors",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000532",
+        "label": 1,
+        "disease": "metastatic renal cell carcinoma",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000887",
+        "label": 1,
+        "disease": "amenorrhea",
+        "query_drugs": [
+          "proellex"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001159",
+        "label": 0,
+        "disease": "prostate cancer",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002102",
+        "label": 0,
+        "disease": "hiv",
+        "query_drugs": [
+          "cphpc"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002443",
+        "label": 0,
+        "disease": "septic shock",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001941",
+        "label": 0,
+        "disease": "breast neoplasms",
+        "query_drugs": [
+          "irosustat"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000310",
+        "label": 0,
+        "disease": "metastatic melanoma",
+        "query_drugs": [
+          "taxoprexin"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001270",
+        "label": 1,
+        "disease": "coronary heart disease",
+        "query_drugs": [
+          "sb-681323"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000748",
+        "label": 0,
+        "disease": "prostate cancer",
+        "query_drugs": [
+          "alvocidib"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001896",
+        "label": 1,
+        "disease": "rheumatoid arthritis",
+        "query_drugs": [
+          "vx-702"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001830",
+        "label": 1,
+        "disease": "postmenopausal osteoporosis",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      }
+    ]
+  },
+  {
+    "input": "data\\benchmark\\split_inputs\\temporal_submit_train.json",
+    "rows": 1512,
+    "unique_smiles": 665,
+    "matched_rows": 996,
+    "matched_rate": 0.6587,
+    "unique_matched_drugcentral_records": 444,
+    "match_methods": {
+      "canonical_smiles": 54,
+      "drug_name": 775,
+      "drug_name_contains": 166,
+      "relaxed_smiles": 1,
+      "unmatched": 516
+    },
+    "match_methods_by_label": {
+      "0": {
+        "drug_name": 402,
+        "unmatched": 264,
+        "canonical_smiles": 25,
+        "drug_name_contains": 70
+      },
+      "1": {
+        "unmatched": 252,
+        "drug_name": 373,
+        "canonical_smiles": 29,
+        "drug_name_contains": 96,
+        "relaxed_smiles": 1
+      }
+    },
+    "matched_examples": [
+      {
+        "sample_id": "PAIR-000247",
+        "label": 0,
+        "disease": "head and neck cancer",
+        "query_drugs": [
+          "thalidomide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "thalidomide"
+      },
+      {
+        "sample_id": "PAIR-000340",
+        "label": 0,
+        "disease": "colorectal cancer",
+        "query_drugs": [
+          "irofulven"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "irofulven"
+      },
+      {
+        "sample_id": "PAIR-000636",
+        "label": 0,
+        "disease": "gallbladder cancer",
+        "query_drugs": [
+          "irinotecan hydrochloride"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "irinotecan"
+      },
+      {
+        "sample_id": "PAIR-000964",
+        "label": 0,
+        "disease": "head and neck cancer",
+        "query_drugs": [
+          "everolimus (rad 001)",
+          "paclitaxel"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "everolimus"
+      },
+      {
+        "sample_id": "PAIR-000968",
+        "label": 0,
+        "disease": "lung cancer",
+        "query_drugs": [
+          "paclitaxel"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "paclitaxel"
+      },
+      {
+        "sample_id": "PAIR-001016",
+        "label": 0,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "tamoxifen citrate"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "tamoxifen"
+      },
+      {
+        "sample_id": "PAIR-001178",
+        "label": 0,
+        "disease": "lung cancer",
+        "query_drugs": [
+          "metformin",
+          "temozolomide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "metformin"
+      },
+      {
+        "sample_id": "PAIR-001206",
+        "label": 0,
+        "disease": "lymphoma",
+        "query_drugs": [
+          "dexamethasone"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "dexamethasone"
+      },
+      {
+        "sample_id": "PAIR-001284",
+        "label": 0,
+        "disease": "endometrial cancer",
+        "query_drugs": [
+          "conjugated estrogens"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "conjugated estrogens"
+      },
+      {
+        "sample_id": "PAIR-001491",
+        "label": 0,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "perillyl alcohol"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "ethanol"
+      },
+      {
+        "sample_id": "PAIR-001926",
+        "label": 0,
+        "disease": "bladder cancer",
+        "query_drugs": [
+          "eflornithine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "eflornithine"
+      },
+      {
+        "sample_id": "PAIR-002269",
+        "label": 0,
+        "disease": "lymphoma",
+        "query_drugs": [
+          "cyclophosphamide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "cyclophosphamide"
+      },
+      {
+        "sample_id": "PAIR-001456",
+        "label": 0,
+        "disease": "hiv infection",
+        "query_drugs": [
+          "lamivudine",
+          "zidovudine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "lamivudine"
+      },
+      {
+        "sample_id": "PAIR-000161",
+        "label": 0,
+        "disease": "systemic lupus erythematosus",
+        "query_drugs": [
+          "premarin and provera"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "conjugated estrogens"
+      },
+      {
+        "sample_id": "PAIR-001179",
+        "label": 0,
+        "disease": "lymphoma",
+        "query_drugs": [
+          "temozolomide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "temozolomide"
+      },
+      {
+        "sample_id": "PAIR-000680",
+        "label": 1,
+        "disease": "depression",
+        "query_drugs": [
+          "imipramine hydrochloride"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "imipramine"
+      },
+      {
+        "sample_id": "PAIR-002023",
+        "label": 0,
+        "disease": "hiv infection",
+        "query_drugs": [
+          "abacavir sulfate"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "abacavir"
+      },
+      {
+        "sample_id": "PAIR-002291",
+        "label": 0,
+        "disease": "leukemia",
+        "query_drugs": [
+          "arsenic trioxide"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "arsenic trioxide"
+      },
+      {
+        "sample_id": "PAIR-000244",
+        "label": 0,
+        "disease": "colorectal cancer",
+        "query_drugs": [
+          "thalidomide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "thalidomide"
+      },
+      {
+        "sample_id": "PAIR-000817",
+        "label": 1,
+        "disease": "autistic disorder",
+        "query_drugs": [
+          "fluoxetine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "fluoxetine"
+      }
+    ],
+    "unmatched_examples": [
+      {
+        "sample_id": "PAIR-000334",
+        "label": 0,
+        "disease": "head and neck cancer",
+        "query_drugs": [
+          "fenretinide"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000393",
+        "label": 0,
+        "disease": "ovarian cancer",
+        "query_drugs": [
+          "chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000396",
+        "label": 0,
+        "disease": "sarcoma",
+        "query_drugs": [
+          "chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000604",
+        "label": 0,
+        "disease": "lymphoma",
+        "query_drugs": [
+          "aminocamptothecin"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000748",
+        "label": 0,
+        "disease": "prostate cancer",
+        "query_drugs": [
+          "alvocidib"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000760",
+        "label": 0,
+        "disease": "lung cancer",
+        "query_drugs": [
+          "marimastat"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001122",
+        "label": 1,
+        "disease": "malignant mesothelioma",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001897",
+        "label": 0,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "pyrazoloacridine"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002134",
+        "label": 0,
+        "disease": "esophageal cancer",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000335",
+        "label": 0,
+        "disease": "ovarian cancer",
+        "query_drugs": [
+          "fenretinide"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000384",
+        "label": 0,
+        "disease": "lung cancer",
+        "query_drugs": [
+          "chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000832",
+        "label": 0,
+        "disease": "kidney cancer",
+        "query_drugs": [
+          "7-hydroxystaurosporine"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002090",
+        "label": 0,
+        "disease": "congestive heart failure",
+        "query_drugs": [
+          "ditpa"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000759",
+        "label": 0,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "bms-275291"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000927",
+        "label": 0,
+        "disease": "pancreatic neoplasms",
+        "query_drugs": [
+          "tnp-470"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000474",
+        "label": 0,
+        "disease": "kidney cancer",
+        "query_drugs": [
+          "atrasentan hydrochloride"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000449",
+        "label": 0,
+        "disease": "cerebrovascular accident",
+        "query_drugs": [
+          "ono-2506"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002303",
+        "label": 1,
+        "disease": "congestive heart failure",
+        "query_drugs": [
+          "bidil"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000373",
+        "label": 0,
+        "disease": "breast neoplasms",
+        "query_drugs": [
+          "chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000090",
+        "label": 0,
+        "disease": "breast neoplasms",
+        "query_drugs": [
+          "ci-1033"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      }
+    ]
+  },
+  {
+    "input": "data\\benchmark\\split_inputs\\temporal_submit_val.json",
+    "rows": 216,
+    "unique_smiles": 140,
+    "matched_rows": 112,
+    "matched_rate": 0.5185,
+    "unique_matched_drugcentral_records": 93,
+    "match_methods": {
+      "canonical_smiles": 5,
+      "drug_name": 86,
+      "drug_name_contains": 21,
+      "unmatched": 104
+    },
+    "match_methods_by_label": {
+      "0": {
+        "unmatched": 41,
+        "drug_name_contains": 12,
+        "drug_name": 43,
+        "canonical_smiles": 2
+      },
+      "1": {
+        "drug_name": 43,
+        "unmatched": 63,
+        "drug_name_contains": 9,
+        "canonical_smiles": 3
+      }
+    },
+    "matched_examples": [
+      {
+        "sample_id": "PAIR-000510",
+        "label": 0,
+        "disease": "metastatic melanoma",
+        "query_drugs": [
+          "vemurafenib + hd il-2"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "vemurafenib"
+      },
+      {
+        "sample_id": "PAIR-001053",
+        "label": 1,
+        "disease": "thyroid cancer",
+        "query_drugs": [
+          "e7080 capsule"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "lenvatinib"
+      },
+      {
+        "sample_id": "PAIR-000392",
+        "label": 0,
+        "disease": "oropharyngeal neoplasms",
+        "query_drugs": [
+          "cisplatin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "cisplatin"
+      },
+      {
+        "sample_id": "PAIR-002439",
+        "label": 0,
+        "disease": "nasopharyngeal carcinoma",
+        "query_drugs": [
+          "adjuvant chemotherapy with paclitaxel and nedaplatin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "paclitaxel"
+      },
+      {
+        "sample_id": "PAIR-000551",
+        "label": 0,
+        "disease": "cystic fibrosis",
+        "query_drugs": [
+          "piperacillin-tazobactam combination product"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "piperacillin"
+      },
+      {
+        "sample_id": "PAIR-000936",
+        "label": 1,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "cabazitaxel"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "cabazitaxel"
+      },
+      {
+        "sample_id": "PAIR-001323",
+        "label": 0,
+        "disease": "resectable pancreatic cancer",
+        "query_drugs": [
+          "lde-225"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sonidegib"
+      },
+      {
+        "sample_id": "PAIR-002361",
+        "label": 1,
+        "disease": "atrial fibrillation",
+        "query_drugs": [
+          "warfarin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "warfarin"
+      },
+      {
+        "sample_id": "PAIR-002259",
+        "label": 0,
+        "disease": "gastric cancer",
+        "query_drugs": [
+          "pazopanib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "pazopanib"
+      },
+      {
+        "sample_id": "PAIR-002010",
+        "label": 0,
+        "disease": "psoriasis",
+        "query_drugs": [
+          "humira then humira plus 3 b vitamins"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "adalimumab"
+      },
+      {
+        "sample_id": "PAIR-001299",
+        "label": 1,
+        "disease": "chronic obstructive pulmonary disease",
+        "query_drugs": [
+          "glycopyrronium /indacaterol maleate",
+          "glycopyrronium bromide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "glycopyrronium bromide"
+      },
+      {
+        "sample_id": "PAIR-000959",
+        "label": 1,
+        "disease": "gastric cancer",
+        "query_drugs": [
+          "ip paclitaxel"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "paclitaxel"
+      },
+      {
+        "sample_id": "PAIR-000221",
+        "label": 1,
+        "disease": "breast cancer",
+        "query_drugs": [
+          "zoladex"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "goserelin"
+      },
+      {
+        "sample_id": "PAIR-000784",
+        "label": 0,
+        "disease": "medullary thyroid carcinoma",
+        "query_drugs": [
+          "sorafenib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sorafenib"
+      },
+      {
+        "sample_id": "PAIR-001139",
+        "label": 0,
+        "disease": "pulmonary arterial hypertension",
+        "query_drugs": [
+          "carvedilol"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "carvedilol"
+      },
+      {
+        "sample_id": "PAIR-002125",
+        "label": 0,
+        "disease": "hepatocellular carcinoma",
+        "query_drugs": [
+          "gadoterate meglumine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "gadoterate meglumine"
+      },
+      {
+        "sample_id": "PAIR-000592",
+        "label": 1,
+        "disease": "lower urinary tract symptoms",
+        "query_drugs": [
+          "tamsulosin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "tamsulosin"
+      },
+      {
+        "sample_id": "PAIR-000670",
+        "label": 0,
+        "disease": "non small cell lung cancer",
+        "query_drugs": [
+          "afatinib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "afatinib"
+      },
+      {
+        "sample_id": "PAIR-002119",
+        "label": 1,
+        "disease": "urge urinary incontinence",
+        "query_drugs": [
+          "solifenacin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "solifenacin"
+      },
+      {
+        "sample_id": "PAIR-000821",
+        "label": 0,
+        "disease": "major depressive disorder",
+        "query_drugs": [
+          "fluoxetine"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "fluoxetine"
+      }
+    ],
+    "unmatched_examples": [
+      {
+        "sample_id": "PAIR-001575",
+        "label": 0,
+        "disease": "congenital heart disease",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000370",
+        "label": 0,
+        "disease": "adenocarcinoma pancreas",
+        "query_drugs": [
+          "chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001522",
+        "label": 0,
+        "disease": "acute myeloid leukemia",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000771",
+        "label": 0,
+        "disease": "chronic hepatitis c virus",
+        "query_drugs": [
+          "pegylated interferon alpha-2a"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002173",
+        "label": 1,
+        "disease": "gastrointestinal neoplasms",
+        "query_drugs": [
+          "ois (oxaliplatin, irinotecan, s-1)"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000162",
+        "label": 0,
+        "disease": "acute coronary syndrome",
+        "query_drugs": [
+          "p2y12 inhibitor (clopidogrel, ticagrelor, prasugrel)"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001873",
+        "label": 0,
+        "disease": "high risk prostate cancer",
+        "query_drugs": [
+          "bkm120"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000008",
+        "label": 1,
+        "disease": "heavy menstrual bleeding",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001558",
+        "label": 0,
+        "disease": "cachexia",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001745",
+        "label": 1,
+        "disease": "rett syndrome",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002425",
+        "label": 1,
+        "disease": "venous thromboembolism",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001713",
+        "label": 1,
+        "disease": "paroxysmal atrial fibrillation",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000388",
+        "label": 0,
+        "disease": "melanoma",
+        "query_drugs": [
+          "chemotherapy"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001861",
+        "label": 0,
+        "disease": "multiple sclerosis",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000079",
+        "label": 1,
+        "disease": "increased drug resistance",
+        "query_drugs": [
+          "nov120101 (poziotinib)"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000170",
+        "label": 0,
+        "disease": "critical illness",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001524",
+        "label": 1,
+        "disease": "acute optic neuritis",
+        "query_drugs": [
+          "placebo"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001380",
+        "label": 1,
+        "disease": "plaque psoriasis",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001377",
+        "label": 1,
+        "disease": "painful diabetic peripheral neuropathy",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001149",
+        "label": 1,
+        "disease": "myelodysplastic syndrome",
+        "query_drugs": [
+          "treatment with apg101"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      }
+    ]
+  },
+  {
+    "input": "data\\benchmark\\split_inputs\\temporal_submit_test.json",
+    "rows": 432,
+    "unique_smiles": 242,
+    "matched_rows": 212,
+    "matched_rate": 0.4907,
+    "unique_matched_drugcentral_records": 165,
+    "match_methods": {
+      "canonical_smiles": 11,
+      "drug_name": 163,
+      "drug_name_contains": 35,
+      "drug_name_fuzzy": 1,
+      "relaxed_smiles": 2,
+      "unmatched": 220
+    },
+    "match_methods_by_label": {
+      "0": {
+        "unmatched": 97,
+        "drug_name": 80,
+        "canonical_smiles": 8,
+        "drug_name_contains": 9,
+        "drug_name_fuzzy": 1
+      },
+      "1": {
+        "unmatched": 123,
+        "drug_name": 83,
+        "drug_name_contains": 26,
+        "canonical_smiles": 3,
+        "relaxed_smiles": 2
+      }
+    },
+    "matched_examples": [
+      {
+        "sample_id": "PAIR-002197",
+        "label": 0,
+        "disease": "multiple myeloma",
+        "query_drugs": [
+          "bevacizumab"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "bevacizumab"
+      },
+      {
+        "sample_id": "PAIR-000501",
+        "label": 0,
+        "disease": "pulmonary arterial hypertension",
+        "query_drugs": [
+          "macitentan"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "macitentan"
+      },
+      {
+        "sample_id": "PAIR-001827",
+        "label": 0,
+        "disease": "primary myelofibrosis",
+        "query_drugs": [
+          "ruxolitinib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "ruxolitinib"
+      },
+      {
+        "sample_id": "PAIR-000403",
+        "label": 0,
+        "disease": "autism",
+        "query_drugs": [
+          "divalproex sodium"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "valproic acid"
+      },
+      {
+        "sample_id": "PAIR-000529",
+        "label": 0,
+        "disease": "melanoma",
+        "query_drugs": [
+          "disulfiram and chelated zinc"
+        ],
+        "matched_by": "canonical_smiles",
+        "match_score": 1.0,
+        "matched_drug": "disulfiram"
+      },
+      {
+        "sample_id": "PAIR-001319",
+        "label": 0,
+        "disease": "graft versus host disease",
+        "query_drugs": [
+          "lde225"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sonidegib"
+      },
+      {
+        "sample_id": "PAIR-000089",
+        "label": 1,
+        "disease": "non small cell lung cancer",
+        "query_drugs": [
+          "azd9291"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "osimertinib"
+      },
+      {
+        "sample_id": "PAIR-001952",
+        "label": 1,
+        "disease": "hiv",
+        "query_drugs": [
+          "dolutegravir"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "dolutegravir"
+      },
+      {
+        "sample_id": "PAIR-000147",
+        "label": 0,
+        "disease": "colorectal neoplasms",
+        "query_drugs": [
+          "abi-007"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "paclitaxel"
+      },
+      {
+        "sample_id": "PAIR-000554",
+        "label": 1,
+        "disease": "metastatic breast cancer",
+        "query_drugs": [
+          "abemaciclib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "abemaciclib"
+      },
+      {
+        "sample_id": "PAIR-000858",
+        "label": 1,
+        "disease": "chronic hepatitis c",
+        "query_drugs": [
+          "grazoprevir 100 mg/elbasvir 50 mg fixed-dose combination tablets",
+          "grazoprevir and elbasvir"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "elbasvir"
+      },
+      {
+        "sample_id": "PAIR-000971",
+        "label": 1,
+        "disease": "metastatic pancreatic cancer",
+        "query_drugs": [
+          "paclitaxel bound albumine"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "paclitaxel"
+      },
+      {
+        "sample_id": "PAIR-000287",
+        "label": 0,
+        "disease": "coronary arteriosclerosis",
+        "query_drugs": [
+          "rosuvastatin"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "rosuvastatin"
+      },
+      {
+        "sample_id": "PAIR-000496",
+        "label": 1,
+        "disease": "bladder cancer",
+        "query_drugs": [
+          "atezolizumab"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "atezolizumab"
+      },
+      {
+        "sample_id": "PAIR-000794",
+        "label": 1,
+        "disease": "thyroid carcinoma",
+        "query_drugs": [
+          "sorafenib (nexavar,bay43-9006)"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "sorafenib"
+      },
+      {
+        "sample_id": "PAIR-002274",
+        "label": 0,
+        "disease": "metastatic alveolar soft part sarcoma",
+        "query_drugs": [
+          "pazopanib"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "pazopanib"
+      },
+      {
+        "sample_id": "PAIR-002283",
+        "label": 0,
+        "disease": "primary central nervous system lymphoma",
+        "query_drugs": [
+          "rituximab plus temozolomide"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "rituximab"
+      },
+      {
+        "sample_id": "PAIR-000664",
+        "label": 0,
+        "disease": "lung cancer",
+        "query_drugs": [
+          "metformin plus chemo-radiotherapy"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "metformin"
+      },
+      {
+        "sample_id": "PAIR-002168",
+        "label": 1,
+        "disease": "esophageal carcinoma",
+        "query_drugs": [
+          "pertuzumab, trastuzumab"
+        ],
+        "matched_by": "drug_name_contains",
+        "match_score": 0.88,
+        "matched_drug": "pertuzumab"
+      },
+      {
+        "sample_id": "PAIR-000168",
+        "label": 1,
+        "disease": "colorectal cancer",
+        "query_drugs": [
+          "acetylsalicylic acid"
+        ],
+        "matched_by": "drug_name",
+        "match_score": 0.95,
+        "matched_drug": "acetylsalicylic acid"
+      }
+    ],
+    "unmatched_examples": [
+      {
+        "sample_id": "PAIR-001147",
+        "label": 0,
+        "disease": "metastatic colorectal cancer",
+        "query_drugs": [
+          "mgn1703 treatment"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000923",
+        "label": 1,
+        "disease": "prostate cancer",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002407",
+        "label": 0,
+        "disease": "hilar cholangiocarcinoma",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000993",
+        "label": 1,
+        "disease": "major depressive disorder",
+        "query_drugs": [
+          "alks 5461"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000427",
+        "label": 1,
+        "disease": "clostridium difficile infection",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001387",
+        "label": 1,
+        "disease": "respiratory syncytial virus infections",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000203",
+        "label": 0,
+        "disease": "asthma",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001683",
+        "label": 0,
+        "disease": "moderate to very severe chronic obstructive pulmonary disease",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001373",
+        "label": 0,
+        "disease": "lumbar spinal stenosis",
+        "query_drugs": [
+          "epidural steroid injection"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001677",
+        "label": 0,
+        "disease": "metastatic pancreatic adenocarcinoma",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001565",
+        "label": 1,
+        "disease": "chronic hepatitis b",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001660",
+        "label": 1,
+        "disease": "keratoconjunctivitis sicca",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002060",
+        "label": 1,
+        "disease": "advanced cancer",
+        "query_drugs": [
+          "chlorogenic acid"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001584",
+        "label": 0,
+        "disease": "delayed graft function",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-000153",
+        "label": 1,
+        "disease": "rheumatoid arthritis",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002082",
+        "label": 0,
+        "disease": "cystic fibrosis",
+        "query_drugs": [
+          "alginate oligosaccharide"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001705",
+        "label": 1,
+        "disease": "osteoporosis in men",
+        "query_drugs": [
+          "placebo"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-002383",
+        "label": 0,
+        "disease": "knee osteoarthritis",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001359",
+        "label": 1,
+        "disease": "dry eye",
+        "query_drugs": [],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      },
+      {
+        "sample_id": "PAIR-001144",
+        "label": 1,
+        "disease": "hiv infection",
+        "query_drugs": [
+          "treatment discontinuation",
+          "treatment simplification"
+        ],
+        "matched_by": "unmatched",
+        "match_score": 0.0,
+        "matched_drug": null
+      }
+    ]
+  }
+]

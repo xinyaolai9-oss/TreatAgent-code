@@ -1,0 +1,48 @@
+{
+  "date_policy": "study_first_submit",
+  "date_fields": [
+    "study_first_submit_date"
+  ],
+  "split_prefix": "temporal_submit",
+  "pair_rows": 2160,
+  "dated_rows": 2160,
+  "undated_rows": 0,
+  "date_source_counts": {
+    "study_first_submit_date": 2160
+  },
+  "temporal": {
+    "train": {
+      "rows": 1512,
+      "label_counts": {
+        "0": 761,
+        "1": 751
+      },
+      "unique_drugs": 665,
+      "unique_diseases": 507,
+      "date_min": "1999-11-01",
+      "date_max": "2012-09-03"
+    },
+    "val": {
+      "rows": 216,
+      "label_counts": {
+        "0": 98,
+        "1": 118
+      },
+      "unique_drugs": 140,
+      "unique_diseases": 165,
+      "date_min": "2012-09-04",
+      "date_max": "2014-02-27"
+    },
+    "test": {
+      "rows": 432,
+      "label_counts": {
+        "0": 195,
+        "1": 237
+      },
+      "unique_drugs": 242,
+      "unique_diseases": 293,
+      "date_min": "2014-02-28",
+      "date_max": "2019-03-20"
+    }
+  }
+}

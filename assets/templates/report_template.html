@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TreatAgent-ARG Case Panel</title>
+  <style>
+    :root {
+      --blue: #14539a;
+      --blue-2: #2f7ed8;
+      --blue-soft: #eef6ff;
+      --blue-line: #b9d8fb;
+      --ink: #1f2a37;
+      --muted: #5f7185;
+      --green: #5b963f;
+      --green-soft: #f1faee;
+      --green-line: #aad69f;
+      --red: #df4b43;
+      --red-soft: #fff0f0;
+      --red-line: #f0aaa5;
+      --purple: #6b46a0;
+      --line: #dce8f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #fbfdff 0%, #f3f8ff 100%);
+    }
+    .page { width: 1440px; margin: 0 auto; padding: 26px; }
+    .case-panel {
+      background: #fff;
+      border: 2px solid var(--blue-line);
+      border-radius: 18px;
+      box-shadow: 0 16px 36px rgba(20, 83, 154, 0.10);
+      overflow: hidden;
+    }
+    .header {
+      display: grid;
+      grid-template-columns: 1.05fr 280px 0.92fr;
+      gap: 18px;
+      padding: 22px 26px;
+      background: linear-gradient(135deg, #f7fbff, #ffffff);
+      border-bottom: 2px solid var(--line);
+      align-items: stretch;
+    }
+    .eyebrow {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    h1 { margin: 0; color: var(--blue); font-size: 30px; line-height: 1.12; }
+    .case-role { margin: 8px 0 0; color: var(--muted); font-size: 15px; line-height: 1.42; }
+    .query-meta {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+      font-size: 13px;
+    }
+    .meta-row {
+      border: 1px solid var(--line);
+      background: #fbfdff;
+      border-radius: 11px;
+      padding: 8px 10px;
+      line-height: 1.3;
+    }
+    .meta-label {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 3px;
+    }
+    .mono { word-break: break-all; }
+    .structure-box {
+      min-height: 250px;
+      border: 1.5px dashed var(--blue-line);
+      border-radius: 16px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 10px;
+    }
+    .structure-box svg { max-width: 100%; height: auto; }
+    .structure-fallback { color: var(--muted); font-size: 13px; text-align: center; }
+    .pill, .tag {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .pill { padding: 6px 10px; background: var(--blue-soft); border: 1px solid var(--blue-line); color: var(--blue); font-size: 12px; }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
+    .tag { padding: 5px 9px; background: #f8fbff; border: 1px dashed var(--blue-2); color: var(--blue); font-size: 11px; }
+    .decision-box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 11px;
+    }
+    .metric {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .metric-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .metric-value {
+      margin-top: 8px;
+      color: var(--blue);
+      font-size: 27px;
+      font-weight: 900;
+      line-height: 1;
+    }
+    .main-grid {
+      display: grid;
+      grid-template-columns: 0.78fr 1.22fr;
+      gap: 18px;
+      padding: 18px 22px;
+    }
+    .panel {
+      border: 1.5px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      padding: 15px;
+    }
+    .panel.blue { background: linear-gradient(180deg, #f8fbff 0%, #fff 100%); border-color: var(--blue-line); }
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 12px;
+      color: var(--blue);
+      font-size: 19px;
+      line-height: 1.15;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--blue); display: inline-block; }
+    .dot.green { background: var(--green); }
+    .dot.red { background: var(--red); }
+    .signal-list { display: grid; gap: 8px; }
+    .signal-row {
+      display: grid;
+      grid-template-columns: 150px 1fr 56px;
+      gap: 10px;
+      align-items: center;
+      font-size: 12px;
+    }
+    .signal-label { color: var(--ink); font-weight: 800; }
+    .signal-track {
+      position: relative;
+      height: 18px;
+      background: #edf4fb;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .axis {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      background: #8faed3;
+      z-index: 2;
+    }
+    .signal-pos {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, #6fa6de, var(--blue-2));
+      border-radius: 0 999px 999px 0;
+    }
+    .signal-neg {
+      position: absolute;
+      right: 50%;
+      top: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, var(--red), #f08a83);
+      border-radius: 999px 0 0 999px;
+    }
+    .signal-value { color: var(--blue); font-weight: 900; text-align: right; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    th, td {
+      padding: 7px 7px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.32;
+    }
+    th {
+      color: var(--blue);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .planner-table td:nth-child(1) { width: 44px; color: var(--blue); font-weight: 900; }
+    .planner-table td:nth-child(2) { width: 120px; color: var(--purple); font-weight: 900; }
+    .planner-table td:nth-child(3) { color: #31465f; }
+    .graph-wrap { padding: 0 22px 18px; }
+    .evidence-graph {
+      display: grid;
+      grid-template-columns: 1fr 210px 1fr;
+      gap: 18px;
+      align-items: center;
+      min-height: 286px;
+      position: relative;
+    }
+    .node-column { display: grid; gap: 10px; }
+    .evidence-node {
+      position: relative;
+      border-radius: 14px;
+      padding: 10px 11px;
+      background: #fff;
+      border: 1.5px solid var(--line);
+      box-shadow: 0 6px 14px rgba(20, 83, 154, 0.06);
+      min-height: 72px;
+    }
+    .support-col .evidence-node { border-color: var(--green-line); background: var(--green-soft); }
+    .conflict-col .evidence-node { border-color: var(--red-line); background: var(--red-soft); }
+    .support-col .evidence-node::after {
+      content: "→";
+      position: absolute;
+      right: -20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--green);
+      font-size: 22px;
+      font-weight: 900;
+    }
+    .conflict-col .evidence-node::before {
+      content: "←";
+      position: absolute;
+      left: -20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--red);
+      font-size: 22px;
+      font-weight: 900;
+    }
+    .node-head { font-size: 12px; font-weight: 900; color: var(--blue); margin-bottom: 5px; }
+    .node-claim { font-size: 12px; line-height: 1.32; }
+    .node-r { margin-top: 5px; color: var(--muted); font-size: 11px; font-weight: 800; }
+    .muted-node { color: var(--muted); display: flex; align-items: center; justify-content: center; }
+    .claim-core {
+      border: 3px solid var(--blue);
+      background: radial-gradient(circle at 30% 20%, #ffffff, #eef6ff);
+      border-radius: 50%;
+      width: 190px;
+      height: 190px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+      box-shadow: 0 10px 20px rgba(20, 83, 154, 0.14);
+    }
+    .claim-title { color: var(--blue); font-size: 20px; line-height: 1.12; font-weight: 900; }
+    .claim-subtitle { margin-top: 8px; color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; }
+    .explanation {
+      margin: 0 22px 22px;
+      padding: 14px 16px;
+      border: 1.5px solid var(--blue-line);
+      border-radius: 16px;
+      background: #f8fbff;
+      color: #28384a;
+      font-size: 14px;
+      line-height: 1.55;
+      max-height: 132px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <article class="case-panel">
+      <header class="header">
+        <div>
+          <div class="eyebrow">
+            <span>TreatAgent-ARG Case Panel</span>
+            <span class="pill">${synthesis_source}</span>
+          </div>
+          <h1>${sample_id} · ${disease}</h1>
+          <p class="case-role">${case_role}</p>
+          <div class="query-meta">
+            <div class="meta-row"><span class="meta-label">SMILES</span><div class="mono">${smiles}</div></div>
+            <div class="meta-row"><span class="meta-label">Candidate DrugKB Match</span>${matched_drug_name}</div>
+          </div>
+          <div class="tag-row">${hard_subset_badges}</div>
+        </div>
+
+        <div class="structure-box">${molecule_svg}</div>
+
+        <div class="decision-box">
+          <div class="metric">
+            <div class="metric-label">Final Decision</div>
+            <div class="metric-value">${final_decision}</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">ARG Score / Threshold</div>
+            <div class="metric-value">${final_score} / ${final_threshold}</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Prediction / Label</div>
+            <div class="metric-value">${final_prediction} / ${ground_truth}</div>
+          </div>
+          <div class="metric">
+            <div class="metric-label">Score Source</div>
+            <div class="metric-value" style="font-size:20px;">${final_score_source}</div>
+          </div>
+        </div>
+      </header>
+
+      <section class="main-grid">
+        <div class="panel blue">
+          <h2><span class="dot"></span>Reliability-aware ARG Signals</h2>
+          <div class="signal-list">${argument_factor_cards}</div>
+        </div>
+
+        <div class="panel">
+          <h2><span class="dot"></span>Planner Trace with Expert Coverage</h2>
+          <table class="planner-table">
+            <thead>
+              <tr><th>Step</th><th>Action</th><th>Question / Expert Response</th></tr>
+            </thead>
+            <tbody>${trajectory_rows}</tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="graph-wrap">
+        <div class="panel blue">
+          <h2><span class="dot"></span>Argument EvidenceGraph</h2>
+          ${evidence_graph_panel}
+        </div>
+      </section>
+
+      <section class="explanation">
+        <h2 style="margin-bottom:8px;"><span class="dot"></span>Graph-grounded Explanation</h2>
+        ${synthesis_explanation}
+      </section>
+    </article>
+  </div>
+</body>
+</html>

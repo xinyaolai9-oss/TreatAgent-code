@@ -1,0 +1,11 @@
+{
+  "raw_rows": 17614,
+  "parse_errors": 0,
+  "single_disease_single_smiles_rows": 5143,
+  "filtered_disease_rows": 1185,
+  "kept_rows": 3958,
+  "label_counts": {
+    "0": 1760,
+    "1": 2198
+  }
+}

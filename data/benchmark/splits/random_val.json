@@ -1,0 +1,5491 @@
+[
+  {
+    "pair_id": "PAIR-001120",
+    "label": 0,
+    "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "normalized_disease": "liver cancer",
+    "example_smiles": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+    "example_disease": "liver cancer",
+    "drugs": [
+      "doxorubicin hydrochloride"
+    ],
+    "nctids": [
+      "NCT00047229",
+      "NCT00079027"
+    ],
+    "phases": [
+      "phase 2",
+      "phase 3"
+    ],
+    "statuses": [
+      "completed",
+      "unknown status"
+    ],
+    "source_row_ids": [
+      290,
+      570
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000187",
+    "label": 0,
+    "canonical_smiles": "CC(C)(C)NC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4NC(=O)C=C[C@]4(C)[C@H]3CC[C@]12C",
+    "normalized_disease": "detectable prostate nodules",
+    "example_smiles": "[H][C@@]12CC[C@H](C(=O)NC(C)(C)C)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC[C@@]2([H])NC(=O)C=C[C@]12C",
+    "example_disease": "detectable prostate nodules",
+    "drugs": [
+      "bicalutamide plus finasteride- combination therapy"
+    ],
+    "nctids": [
+      "NCT02146937"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      14251
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002102",
+    "label": 0,
+    "canonical_smiles": "O=C(O)[C@H]1CCCN1C(=O)CCCCC(=O)N1CCC[C@@H]1C(=O)O",
+    "normalized_disease": "hiv",
+    "example_smiles": "OC(=O)[C@H]1CCCN1C(=O)CCCCC(=O)N1CCC[C@@H]1C(O)=O",
+    "example_disease": "hiv",
+    "drugs": [
+      "cphpc"
+    ],
+    "nctids": [
+      "NCT02425241"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15391
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000583",
+    "label": 1,
+    "canonical_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21",
+    "normalized_disease": "peripheral arterial disease",
+    "example_smiles": "[H][C@@]12CCC[C@]1([H])N([C@@H](C2)C(O)=O)C(=O)[C@H](C)N[C@@H](CCC1=CC=CC=C1)C(=O)OCC",
+    "example_disease": "peripheral arterial disease",
+    "drugs": [
+      "ramipril"
+    ],
+    "nctids": [
+      "NCT00168467"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1443
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001883",
+    "label": 0,
+    "canonical_smiles": "NC(=O)CC[C@@H](C(=O)O)N(CCNC(=S)Nc1ccc2c(c1)C(=O)OC21c2ccc(O)cc2Oc2cc(O)ccc21)C(=O)c1ccc(NCc2cnc3nc(N)[nH]c(=O)c3n2)cc1",
+    "normalized_disease": "ovarian cancer",
+    "example_smiles": "NC(=O)CC[C@H](N(CCNC(=S)NC1=CC=C2C(=C1)C(=O)OC21C2=CC=C(O)C=C2OC2=C1C=CC(O)=C2)C(=O)C1=CC=C(NCC2=CN=C3N=C(N)NC(=O)C3=N2)C=C1)C(O)=O",
+    "example_disease": "ovarian cancer",
+    "drugs": [
+      "ec-17"
+    ],
+    "nctids": [
+      "NCT01511055"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      10989
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001993",
+    "label": 0,
+    "canonical_smiles": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)C2(F)F)c(=O)n1",
+    "normalized_disease": "lymphoma",
+    "example_smiles": "NC1=NC(=O)N(C=C1)[C@@H]1O[C@H](CO)[C@@H](O)C1(F)F",
+    "example_disease": "lymphoma",
+    "drugs": [
+      "gemcitabine hydrochloride"
+    ],
+    "nctids": [
+      "NCT00234026"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1912
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002065",
+    "label": 1,
+    "canonical_smiles": "O=C(/C=C\\n1cnc(-c2cc(C(F)(F)F)cc(C(F)(F)F)c2)n1)NNc1cnccn1",
+    "normalized_disease": "sarcoma",
+    "example_smiles": "FC(F)(F)C1=CC(=CC(=C1)C1=NN(\\C=C/C(=O)NNC2=NC=CN=C2)C=N1)C(F)(F)F",
+    "example_disease": "sarcoma",
+    "drugs": [
+      "kcp-330"
+    ],
+    "nctids": [
+      "NCT01896505"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13093
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001625",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "generalized anxiety disorder",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "generalized anxiety disorder",
+    "drugs": [],
+    "nctids": [
+      "NCT01766401"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      12430
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000780",
+    "label": 0,
+    "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "normalized_disease": "kidney cancer",
+    "example_smiles": "CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1",
+    "example_disease": "kidney cancer",
+    "drugs": [
+      "sorafenib"
+    ],
+    "nctids": [
+      "NCT00496756",
+      "NCT00589550"
+    ],
+    "phases": [
+      "phase 1",
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      4829,
+      5804
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-002238",
+    "label": 1,
+    "canonical_smiles": "O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O",
+    "normalized_disease": "osteoporosis",
+    "example_smiles": "OC(CN1C=CN=C1)(P(O)(O)=O)P(O)(O)=O",
+    "example_disease": "osteoporosis",
+    "drugs": [
+      "zoledronic acid"
+    ],
+    "nctids": [
+      "NCT00097825",
+      "NCT00361595",
+      "NCT01197300"
+    ],
+    "phases": [
+      "n/a",
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      788,
+      3181,
+      8900
+    ],
+    "trial_count": 3,
+    "record_count": 3
+  },
+  {
+    "pair_id": "PAIR-001222",
+    "label": 0,
+    "canonical_smiles": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO",
+    "normalized_disease": "brain cancer",
+    "example_smiles": "[H][C@@]12C[C@@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C",
+    "example_disease": "brain cancer",
+    "drugs": [
+      "palonosetron (aloxi) and dexamethasone"
+    ],
+    "nctids": [
+      "NCT00636805"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      6300
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001325",
+    "label": 0,
+    "canonical_smiles": "Cc1c(Cc2ccc3ccccc3n2)c2cc(F)ccc2n1CC(=O)O",
+    "normalized_disease": "atopic dermatitis",
+    "example_smiles": "CC1=C(CC2=CC=C3C=CC=CC3=N2)C2=CC(F)=CC=C2N1CC(O)=O",
+    "example_disease": "atopic dermatitis",
+    "drugs": [
+      "oc000459"
+    ],
+    "nctids": [
+      "NCT02002208"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13590
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002376",
+    "label": 0,
+    "canonical_smiles": "[Cl-].[Na+]",
+    "normalized_disease": "congestive heart failure",
+    "example_smiles": "[Na+].[Cl-]",
+    "example_disease": "congestive heart failure",
+    "drugs": [
+      "extraneal",
+      "icodextrin"
+    ],
+    "nctids": [
+      "NCT00368641",
+      "NCT01124227"
+    ],
+    "phases": [
+      "phase 2",
+      "phase 3"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      3261,
+      8364
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001857",
+    "label": 0,
+    "canonical_smiles": "N=C(N)NCCC[C@H](N)C(=O)O",
+    "normalized_disease": "ischemic stroke",
+    "example_smiles": "N[C@@H](CCCNC(N)=N)C(O)=O",
+    "example_disease": "ischemic stroke",
+    "drugs": [
+      "clopidogrel"
+    ],
+    "nctids": [
+      "NCT03385538"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      17416
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001402",
+    "label": 1,
+    "canonical_smiles": "Cc1cc2c(s1)Nc1ccccc1N=C2N1CCN(C)CC1",
+    "normalized_disease": "schizophrenia",
+    "example_smiles": "CN1CCN(CC1)C1=NC2=CC=CC=C2NC2=C1C=C(C)S2",
+    "example_disease": "schizophrenia",
+    "drugs": [],
+    "nctids": [
+      "NCT00640510"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      6346
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000784",
+    "label": 0,
+    "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "normalized_disease": "medullary thyroid carcinoma",
+    "example_smiles": "CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1",
+    "example_disease": "medullary thyroid carcinoma",
+    "drugs": [
+      "sorafenib"
+    ],
+    "nctids": [
+      "NCT01736878"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      12276
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002244",
+    "label": 1,
+    "canonical_smiles": "O=P([O-])([O-])[O-]",
+    "normalized_disease": "depression",
+    "example_smiles": "[O-]P([O-])([O-])=O",
+    "example_disease": "depression",
+    "drugs": [],
+    "nctids": [
+      "NCT01520649"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      11055
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000912",
+    "label": 0,
+    "canonical_smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "normalized_disease": "secondary progressive multiple sclerosis",
+    "example_smiles": "COCCC1=CC=C(OCC(O)CNC(C)C)C=C1",
+    "example_disease": "secondary progressive multiple sclerosis",
+    "drugs": [
+      "saline"
+    ],
+    "nctids": [
+      "NCT02228213"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      14589
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000905",
+    "label": 1,
+    "canonical_smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "normalized_disease": "myocardial infarction",
+    "example_smiles": "COCCC1=CC=C(OCC(O)CNC(C)C)C=C1",
+    "example_disease": "myocardial infarction",
+    "drugs": [
+      "injectable (i.v.) metoprolol tartrate (up to 15 mg)."
+    ],
+    "nctids": [
+      "NCT01311700"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9721
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000433",
+    "label": 0,
+    "canonical_smiles": "CCCCCCCCCC(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]1C(=O)NCC(=O)N[C@@H](CCCN)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@H](C)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)N[C@H](CO)C(=O)N[C@@H]([C@H](C)CC(=O)O)C(=O)N[C@@H](CC(=O)c2ccccc2N)C(=O)O[C@@H]1C",
+    "normalized_disease": "surgical site infection",
+    "example_smiles": "CCCCCCCCCC(=O)N[C@@H](CC1=CNC2=C1C=CC=C2)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(O)=O)C(=O)N[C@H]1[C@@H](C)OC(=O)[C@H](CC(=O)C2=C(N)C=CC=C2)NC(=O)[C@@H](NC(=O)[C@@H](CO)NC(=O)CNC(=O)[C@H](CC(O)=O)NC(=O)[C@@H](C)NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CCCN)NC(=O)CNC1=O)[C@H](C)CC(O)=O",
+    "example_disease": "surgical site infection",
+    "drugs": [
+      "vancomycin powder"
+    ],
+    "nctids": [
+      "NCT01566422"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      11305
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002187",
+    "label": 0,
+    "canonical_smiles": "O=C1[O][Pt]2(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)[O]C1=O",
+    "normalized_disease": "melanoma",
+    "example_smiles": "[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1",
+    "example_disease": "melanoma",
+    "drugs": [],
+    "nctids": [
+      "NCT01009775"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      7503
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000993",
+    "label": 1,
+    "canonical_smiles": "CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5",
+    "normalized_disease": "major depressive disorder",
+    "example_smiles": "CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1CC4=C5C(O[C@@H]2[C@@]35CCN1CC1CC1)=C(O)C=C4",
+    "example_disease": "major depressive disorder",
+    "drugs": [
+      "alks 5461"
+    ],
+    "nctids": [
+      "NCT02085135",
+      "NCT02141399"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13966,
+      14224
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000721",
+    "label": 1,
+    "canonical_smiles": "CN/C(=C\\[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1",
+    "normalized_disease": "macular edema secondary to branch retinal vein occlusion",
+    "example_smiles": "CN\\C(NCCSCC1=CC=C(CN(C)C)O1)=C/[N+]([O-])=O",
+    "example_disease": "macular edema secondary to branch retinal vein occlusion",
+    "drugs": [
+      "ranibizumab 0.5 mg"
+    ],
+    "nctids": [
+      "NCT01976338"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13471
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000357",
+    "label": 0,
+    "canonical_smiles": "CCC(C)(C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@H]21",
+    "normalized_disease": "multiple myeloma",
+    "example_smiles": "[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)C(C)(C)CC",
+    "example_disease": "multiple myeloma",
+    "drugs": [
+      "simvastatine"
+    ],
+    "nctids": [
+      "NCT00281476"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2370
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000098",
+    "label": 0,
+    "canonical_smiles": "C=CCN1C[C@H](C(=O)N(CCCN(C)C)C(=O)NCC)C[C@@H]2c3cccc4[nH]cc(c34)C[C@H]21",
+    "normalized_disease": "acromegaly",
+    "example_smiles": "[H][C@@]12CC3=CNC4=CC=CC(=C34)[C@@]1([H])C[C@H](CN2CC=C)C(=O)N(CCCN(C)C)C(=O)NCC",
+    "example_disease": "acromegaly",
+    "drugs": [
+      "octreotide acetate and cabergoline/octrotide and somavert"
+    ],
+    "nctids": [
+      "NCT00376064"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      3349
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000729",
+    "label": 1,
+    "canonical_smiles": "CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1.O=C(O)/C=C\\C(=O)O",
+    "normalized_disease": "bipolar disorder",
+    "example_smiles": "OC(=O)\\C=C/C(O)=O.CN1CC2C(C1)C1=C(OC3=CC=CC=C23)C=CC(Cl)=C1",
+    "example_disease": "bipolar disorder",
+    "drugs": [],
+    "nctids": [
+      "NCT01349907"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9966
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000653",
+    "label": 0,
+    "canonical_smiles": "CN(C)/N=N/c1[nH]cnc1C(N)=O",
+    "normalized_disease": "colon cancer",
+    "example_smiles": "CN(C)\\N=N\\C1=C(N=CN1)C(N)=O",
+    "example_disease": "colon cancer",
+    "drugs": [
+      "decitabine"
+    ],
+    "nctids": [
+      "NCT01882660"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      13036
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000061",
+    "label": 0,
+    "canonical_smiles": "C=C1/C(=C\\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)/C=C/C=C/C(O)(CC)CC)CC[C@@H]23)C[C@@H](O)C[C@@H]1O",
+    "normalized_disease": "liver neoplasms",
+    "example_smiles": "[H]\\C(\\C(\\[H])=C(/[H])C(O)(CC)CC)=C(\\[H])[C@@]([H])(C)[C@@]1([H])CC[C@@]2([H])\\C(CCC[C@]12C)=C(/[H])\\C(\\[H])=C1\\C[C@@]([H])(O)C[C@]([H])(O)C1=C",
+    "example_disease": "liver neoplasms",
+    "drugs": [
+      "seocalcitol"
+    ],
+    "nctids": [
+      "NCT00051532"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      322
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000128",
+    "label": 1,
+    "canonical_smiles": "CC(=O)N[C@H](CSSC[C@H](N)C(=O)O)C(=O)N[C@H](C)C(=O)N[C@H](CCCNC(=N)N)C(=O)N[C@H](CCCNC(=N)N)C(=O)N[C@H](CCCNC(=N)N)C(=O)N[C@H](C)C(=O)N[C@H](CCCNC(=N)N)C(N)=O",
+    "normalized_disease": "secondary hyperparathyroidism",
+    "example_smiles": "C[C@@H](NC(=O)[C@@H](CCCNC(N)=N)NC(=O)[C@@H](CCCNC(N)=N)NC(=O)[C@@H](CCCNC(N)=N)NC(=O)[C@@H](C)NC(=O)[C@@H](CSSC[C@H](N)C(O)=O)NC(C)=O)C(=O)N[C@H](CCCNC(N)=N)C(N)=O",
+    "example_disease": "secondary hyperparathyroidism",
+    "drugs": [
+      "etelcalcetide"
+    ],
+    "nctids": [
+      "NCT01414114"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10363
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001966",
+    "label": 0,
+    "canonical_smiles": "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O",
+    "normalized_disease": "chronic lymphocytic leukaemia",
+    "example_smiles": "NC1=CC=CC2=C1CN(C1CCC(=O)NC1=O)C2=O",
+    "example_disease": "chronic lymphocytic leukaemia",
+    "drugs": [
+      "lenalidomide"
+    ],
+    "nctids": [
+      "NCT01127542"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      8385
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001426",
+    "label": 0,
+    "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "normalized_disease": "recurrent small cell lung cancer",
+    "example_smiles": "CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1",
+    "example_disease": "recurrent small cell lung cancer",
+    "drugs": [
+      "imatinib mesylate"
+    ],
+    "nctids": [
+      "NCT00052949"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      331
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000756",
+    "label": 1,
+    "canonical_smiles": "CN1Cc2c(Cl)cc(Cl)cc2[C@H](c2cccc(S(=O)(=O)NCCOCCOCCNC(=O)NCCCCNC(=O)NCCOCCOCCNS(=O)(=O)c3cccc([C@@H]4CN(C)Cc5c(Cl)cc(Cl)cc54)c3)c2)C1",
+    "normalized_disease": "constipation predominant irritable bowel syndrome",
+    "example_smiles": "CN1C[C@@H](C2=CC(=CC=C2)S(=O)(=O)NCCOCCOCCNC(=O)NCCCCNC(=O)NCCOCCOCCNS(=O)(=O)C2=CC(=CC=C2)[C@@H]2CN(C)CC3=C2C=C(Cl)C=C3Cl)C2=C(C1)C(Cl)=CC(Cl)=C2",
+    "example_disease": "constipation predominant irritable bowel syndrome",
+    "drugs": [
+      "rdx5791",
+      "tenapanor"
+    ],
+    "nctids": [
+      "NCT01340053",
+      "NCT02727751"
+    ],
+    "phases": [
+      "phase 2",
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9913,
+      16388
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000010",
+    "label": 1,
+    "canonical_smiles": "C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=Cc5oncc5C[C@]4(C)[C@H]3CC[C@@]21C",
+    "normalized_disease": "diabetic macular edema",
+    "example_smiles": "[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2=CC3=C(C[C@]12C)C=NO3",
+    "example_disease": "diabetic macular edema",
+    "drugs": [
+      "danazol"
+    ],
+    "nctids": [
+      "NCT02002403"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13593
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001430",
+    "label": 1,
+    "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "normalized_disease": "systemic sclerosis",
+    "example_smiles": "CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1",
+    "example_disease": "systemic sclerosis",
+    "drugs": [
+      "imatinib mesylate"
+    ],
+    "nctids": [
+      "NCT00555581"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5501
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000631",
+    "label": 0,
+    "canonical_smiles": "CCc1c(C(=O)C(N)=O)c2c(OCC(=O)OC)cccc2n1Cc1ccccc1",
+    "normalized_disease": "renal impairment",
+    "example_smiles": "CCC1=C(C(=O)C(N)=O)C2=C(OCC(=O)OC)C=CC=C2N1CC1=CC=CC=C1",
+    "example_disease": "renal impairment",
+    "drugs": [
+      "varespladib methyl"
+    ],
+    "nctids": [
+      "NCT01359579"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      10019
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000292",
+    "label": 0,
+    "canonical_smiles": "CC(C)n1c(/C=C/[C@H](O)C[C@H](O)CC(=O)O)c(-c2ccc(F)cc2)c2ccccc21",
+    "normalized_disease": "renal transplantation",
+    "example_smiles": "CC(C)N1C(\\C=C\\[C@H](O)C[C@H](O)CC(O)=O)=C(C2=CC=C(F)C=C2)C2=CC=CC=C12",
+    "example_disease": "renal transplantation",
+    "drugs": [
+      "fluvastatin"
+    ],
+    "nctids": [
+      "NCT00223041"
+    ],
+    "phases": [
+      "phase 2/phase 3"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      1819
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000600",
+    "label": 1,
+    "canonical_smiles": "CC[C@@H]1C(=O)N(C)c2cnc(Nc3ccc(C(O)=N[C@H]4CC[C@H](N5CCN(CC6CC6)CC5)CC4)cc3OC)nc2N1C(C)C",
+    "normalized_disease": "cancer",
+    "example_smiles": "[H][C@@]1(CC[C@@]([H])(CC1)N1CCN(CC2CC2)CC1)N=C(O)C1=CC(OC)=C(NC2=NC=C3N(C)C(=O)[C@@]([H])(CC)N(C(C)C)C3=N2)C=C1",
+    "example_disease": "neoplasms",
+    "drugs": [
+      "bi 6727"
+    ],
+    "nctids": [
+      "NCT01145885",
+      "NCT02273388"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "active, not recruiting",
+      "completed"
+    ],
+    "source_row_ids": [
+      8520,
+      14775
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-002439",
+    "label": 0,
+    "canonical_smiles": "[NH3]->[Pt]1(<-[NH3])[O]CC(=O)[O]1",
+    "normalized_disease": "nasopharyngeal carcinoma",
+    "example_smiles": "[H][N]([H])([H])[Pt]1(OCC(=O)O1)[N]([H])([H])[H]",
+    "example_disease": "nasopharyngeal carcinoma",
+    "drugs": [
+      "adjuvant chemotherapy with paclitaxel and nedaplatin"
+    ],
+    "nctids": [
+      "NCT01694576"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      12014
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002178",
+    "label": 0,
+    "canonical_smiles": "O=C1[O][Pt]2(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)[O]C1=O",
+    "normalized_disease": "hematologic malignancies",
+    "example_smiles": "[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1",
+    "example_disease": "hematologic malignancies",
+    "drugs": [
+      "nivolumab"
+    ],
+    "nctids": [
+      "NCT02985554"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      16964
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001942",
+    "label": 0,
+    "canonical_smiles": "NS(=O)(=O)Oc1ccc2c3c(c(=O)oc2c1)CCCCC3",
+    "normalized_disease": "endometrial cancer",
+    "example_smiles": "NS(=O)(=O)OC1=CC=C2C3=C(CCCCC3)C(=O)OC2=C1",
+    "example_disease": "endometrial cancer",
+    "drugs": [
+      "bn83495"
+    ],
+    "nctids": [
+      "NCT01251354"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      9304
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000634",
+    "label": 0,
+    "canonical_smiles": "CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC",
+    "normalized_disease": "breast cancer",
+    "example_smiles": "CCC1=C2CN3C(=CC4=C(COC(=O)[C@]4(O)CC)C3=O)C2=NC2=CC=C(OC(=O)N3CCC(CC3)N3CCCCC3)C=C12",
+    "example_disease": "breast cancer",
+    "drugs": [
+      "irinotecan hydrochloride"
+    ],
+    "nctids": [
+      "NCT00275041"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2317
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001032",
+    "label": 0,
+    "canonical_smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1C(NC(C)=O)CC2",
+    "normalized_disease": "immunosuppression",
+    "example_smiles": "COC1=CC2=C(C(OC)=C1OC)C1=CC=C(OC)C(=O)C=C1C(CC2)NC(C)=O",
+    "example_disease": "immunosuppression",
+    "drugs": [
+      "tacrolimus"
+    ],
+    "nctids": [
+      "NCT00731874"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      7216
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001499",
+    "label": 0,
+    "canonical_smiles": "Cc1nnc(C(=O)NC(C)(C)c2nc(C(=O)NCc3ccc(F)cc3)c(O)c(=O)n2C)o1",
+    "normalized_disease": "relapsing remitting multiple sclerosis",
+    "example_smiles": "CN1C(=O)C(O)=C(N=C1C(C)(C)NC(=O)C1=NN=C(C)O1)C(=O)NCC1=CC=C(F)C=C1",
+    "example_disease": "relapsing remitting multiple sclerosis",
+    "drugs": [
+      "raltegravir"
+    ],
+    "nctids": [
+      "NCT01767701"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      12439
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001278",
+    "label": 0,
+    "canonical_smiles": "C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+    "normalized_disease": "lung cancer",
+    "example_smiles": "[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C",
+    "example_disease": "lung cancer",
+    "drugs": [
+      "methylprednisolone"
+    ],
+    "nctids": [
+      "NCT01789892"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      12555
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000353",
+    "label": 0,
+    "canonical_smiles": "CCC(=O)O[C@]1(C(=O)SCF)[C@H](C)C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
+    "normalized_disease": "obstructive sleep apnea",
+    "example_smiles": "[H][C@@]12C[C@@H](C)[C@](OC(=O)CC)(C(=O)SCF)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])C[C@H](F)C2=CC(=O)C=C[C@]12C",
+    "example_disease": "obstructive sleep apnea",
+    "drugs": [
+      "montelukast"
+    ],
+    "nctids": [
+      "NCT01027806"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      7654
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001237",
+    "label": 1,
+    "canonical_smiles": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@H]1C(=O)CO",
+    "normalized_disease": "psoriasis",
+    "example_smiles": "[H][C@@]12C[C@@H](C)[C@H](C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C",
+    "example_disease": "psoriasis",
+    "drugs": [
+      "desoximetasone 0.25% spray"
+    ],
+    "nctids": [
+      "NCT01043393"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      7771
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001156",
+    "label": 1,
+    "canonical_smiles": "COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC",
+    "normalized_disease": "gastroesophageal reflux disease",
+    "example_smiles": "COC1=C(OC)C(CS(=O)C2=NC3=C(N2)C=C(OC(F)F)C=C3)=NC=C1",
+    "example_disease": "gastroesophageal reflux disease",
+    "drugs": [
+      "pantoprazole"
+    ],
+    "nctids": [
+      "NCT00325676"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2827
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001111",
+    "label": 0,
+    "canonical_smiles": "COc1cccc(CCc2ccccc2OCC(CN(C)C)OC(=O)CCC(=O)O)c1",
+    "normalized_disease": "chronic kidney disease",
+    "example_smiles": "COC1=CC(CCC2=CC=CC=C2OCC(CN(C)C)OC(=O)CCC(O)=O)=CC=C1",
+    "example_disease": "chronic kidney disease",
+    "drugs": [
+      "sarpogrelate"
+    ],
+    "nctids": [
+      "NCT01165567"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      8653
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000639",
+    "label": 1,
+    "canonical_smiles": "CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC",
+    "normalized_disease": "metastatic colorectal cancer",
+    "example_smiles": "CCC1=C2CN3C(=CC4=C(COC(=O)[C@]4(O)CC)C3=O)C2=NC2=CC=C(OC(=O)N3CCC(CC3)N3CCCCC3)C=C12",
+    "example_disease": "metastatic colorectal cancer",
+    "drugs": [
+      "folfiri, avastin, irinotecan",
+      "panitumumab and cpt-11"
+    ],
+    "nctids": [
+      "NCT00475293",
+      "NCT01183494"
+    ],
+    "phases": [
+      "phase 1",
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4579,
+      8776
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000096",
+    "label": 1,
+    "canonical_smiles": "C=CCN1CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5",
+    "normalized_disease": "pain",
+    "example_smiles": "OC1=CC=C2C[C@H]3N(CC=C)CC[C@@]45[C@@H](OC1=C24)C(=O)CC[C@@]35O",
+    "example_disease": "pain",
+    "drugs": [
+      "oxycodone and naloxone"
+    ],
+    "nctids": [
+      "NCT01167699"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      8667
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001000",
+    "label": 0,
+    "canonical_smiles": "COc1c(C)c2c(c(O)c1C/C=C(\\C)CCC(=O)OCCN1CCOCC1)C(=O)OC2",
+    "normalized_disease": "kidney transplantation",
+    "example_smiles": "COC1=C(C\\C=C(/C)CCC(=O)OCCN2CCOCC2)C(O)=C2C(=O)OCC2=C1C",
+    "example_disease": "kidney transplantation",
+    "drugs": [
+      "mycophenolate mofetil [cellcept]"
+    ],
+    "nctids": [
+      "NCT00420472"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      3907
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001129",
+    "label": 1,
+    "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "normalized_disease": "soft tissue sarcoma",
+    "example_smiles": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+    "example_disease": "soft tissue sarcoma",
+    "drugs": [],
+    "nctids": [
+      "NCT02783599"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      16545
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002120",
+    "label": 1,
+    "canonical_smiles": "O=C(O[C@H]1CN2CCC1CC2)N1CCc2ccccc2[C@@H]1c1ccccc1",
+    "normalized_disease": "urinary incontinence",
+    "example_smiles": "O=C(O[C@H]1CN2CCC1CC2)N1CCC2=CC=CC=C2[C@@H]1C1=CC=CC=C1",
+    "example_disease": "urinary incontinence",
+    "drugs": [
+      "solifenacin",
+      "vesicare"
+    ],
+    "nctids": [
+      "NCT01215721",
+      "NCT02047032"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9041,
+      13794
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001627",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "hand osteoarthritis",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "hand osteoarthritis",
+    "drugs": [],
+    "nctids": [
+      "NCT01910116"
+    ],
+    "phases": [
+      "phase 2/phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13162
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000123",
+    "label": 0,
+    "canonical_smiles": "CC(=O)N[C@@H](CS)C(=O)O",
+    "normalized_disease": "contrast induced nephropathy",
+    "example_smiles": "CC(=O)N[C@@H](CS)C(O)=O",
+    "example_disease": "contrast induced nephropathy",
+    "drugs": [
+      "n-acetylcysteine"
+    ],
+    "nctids": [
+      "NCT00575419"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      5713
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001242",
+    "label": 1,
+    "canonical_smiles": "C[C@H](/C=C/[C@H](C)C(C)(C)O)[C@H]1CC[C@H]2/C(=C/C=C3C[C@@H](O)C[C@H](O)C3)CCC[C@]12C",
+    "normalized_disease": "chronic kidney disease",
+    "example_smiles": "[H][C@@]1(CC[C@@]2([H])\\C(CCC[C@]12C)=C\\C=C1C[C@@H](O)C[C@H](O)C1)[C@H](C)\\C=C\\[C@H](C)C(C)(C)O",
+    "example_disease": "chronic kidney disease",
+    "drugs": [
+      "zemplar"
+    ],
+    "nctids": [
+      "NCT01204528"
+    ],
+    "phases": [
+      "phase 2/phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      8958
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000703",
+    "label": 0,
+    "canonical_smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1",
+    "normalized_disease": "colorectal cancer metastatic",
+    "example_smiles": "CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O",
+    "example_disease": "colorectal cancer metastatic",
+    "drugs": [
+      "capecitabine, celecoxib and methotrexate"
+    ],
+    "nctids": [
+      "NCT01668680"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      11876
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002135",
+    "label": 1,
+    "canonical_smiles": "O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1",
+    "normalized_disease": "attention deficit hyperactivity disorder",
+    "example_smiles": "ClC1=CC=CC(N2CCN(CCCCOC3=CC4=C(CCC(=O)N4)C=C3)CC2)=C1Cl",
+    "example_disease": "attention deficit hyperactivity disorder",
+    "drugs": [
+      "aripiprazole"
+    ],
+    "nctids": [
+      "NCT00221962"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1815
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000489",
+    "label": 0,
+    "canonical_smiles": "CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1",
+    "normalized_disease": "ventricular tachycardia",
+    "example_smiles": "CCCCC1=C(C(=O)C2=CC(I)=C(OCCN(CC)CC)C(I)=C2)C2=C(O1)C=CC=C2",
+    "example_disease": "ventricular tachycardia",
+    "drugs": [
+      "amiodarone"
+    ],
+    "nctids": [
+      "NCT02301390"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      14927
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000297",
+    "label": 0,
+    "canonical_smiles": "CC(NC(C)(C)C)C(=O)c1cccc(Cl)c1",
+    "normalized_disease": "tobacco use disorder",
+    "example_smiles": "CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1",
+    "example_disease": "tobacco use disorder",
+    "drugs": [
+      "bupropion sr",
+      "nicotine patch"
+    ],
+    "nctids": [
+      "NCT00046813",
+      "NCT00119210"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      284,
+      1031
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000480",
+    "label": 1,
+    "canonical_smiles": "CCCCc1nc(C)c(CC(=S)N(C)C)c(=O)n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1",
+    "normalized_disease": "essential hypertension",
+    "example_smiles": "CCCCC1=NC(C)=C(CC(=S)N(C)C)C(=O)N1CC1=CC=C(C=C1)C1=C(C=CC=C1)C1=NN=NN1",
+    "example_disease": "essential hypertension",
+    "drugs": [],
+    "nctids": [
+      "NCT01258673"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9354
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000628",
+    "label": 0,
+    "canonical_smiles": "CC[C@]1(O)C[C@@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C=O)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1",
+    "normalized_disease": "sepsis",
+    "example_smiles": "CC[C@]1(O)C[C@@H]2CN(C1)CCC1=C(NC3=CC=CC=C13)[C@@](C2)(C(=O)OC)C1=C(OC)C=C2N(C=O)[C@@H]3[C@]4(CCN5CC=C[C@](CC)([C@@H]45)[C@@H](OC(C)=O)[C@]3(O)C(=O)OC)C2=C1",
+    "example_disease": "sepsis",
+    "drugs": [
+      "intravenous gr270773- phospholipid emulsion"
+    ],
+    "nctids": [
+      "NCT00089986"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      704
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001980",
+    "label": 1,
+    "canonical_smiles": "Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O",
+    "normalized_disease": "prostate cancer",
+    "example_smiles": "NC1=CC=CC2=C1CN(C1CCC(=O)NC1=O)C2=O",
+    "example_disease": "prostate cancer",
+    "drugs": [
+      "revlimid"
+    ],
+    "nctids": [
+      "NCT00348595",
+      "NCT00654186"
+    ],
+    "phases": [
+      "phase 1/phase 2",
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      3047,
+      6468
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-002155",
+    "label": 1,
+    "canonical_smiles": "O=C1[O][Pt]2(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)[O]C1=O",
+    "normalized_disease": "advanced solid tumors",
+    "example_smiles": "[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1",
+    "example_disease": "advanced solid tumors",
+    "drugs": [
+      "interferon-gamma and nivolumab"
+    ],
+    "nctids": [
+      "NCT02454062",
+      "NCT02614456"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15504,
+      16049
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001435",
+    "label": 0,
+    "canonical_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "normalized_disease": "malignant melanoma",
+    "example_smiles": "CN(C1=CC2=NN(C)C(C)=C2C=C1)C1=CC=NC(NC2=CC=C(C)C(=C2)S(N)(=O)=O)=N1",
+    "example_disease": "malignant melanoma",
+    "drugs": [
+      "lapatinib"
+    ],
+    "nctids": [
+      "NCT01264081"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      9393
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000764",
+    "label": 1,
+    "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "normalized_disease": "colorectal adenocarcinoma",
+    "example_smiles": "CNC(=O)C1=CC(OC2=CC(F)=C(NC(=O)NC3=CC=C(Cl)C(=C3)C(F)(F)F)C=C2)=CC=N1",
+    "example_disease": "colorectal adenocarcinoma",
+    "drugs": [
+      "regorafenib 160 mg"
+    ],
+    "nctids": [
+      "NCT02788006"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      16559
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002282",
+    "label": 0,
+    "canonical_smiles": "O=P1(N(CCCl)CCCl)NCCCO1",
+    "normalized_disease": "pancreatic cancer",
+    "example_smiles": "ClCCN(CCCl)P1(=O)NCCCO1",
+    "example_disease": "pancreatic cancer",
+    "drugs": [
+      "cyclophosphamide"
+    ],
+    "nctids": [
+      "NCT02465983"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      15541
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001005",
+    "label": 0,
+    "canonical_smiles": "COc1cc(/C=C/C(=O)CC(=O)/C=C/c2ccc(O)c(OC)c2)ccc1O",
+    "normalized_disease": "bipolar disorder",
+    "example_smiles": "COC1=CC(\\C=C\\C(=O)CC(=O)\\C=C\\C2=CC(OC)=C(O)C=C2)=CC=C1O",
+    "example_disease": "bipolar disorder",
+    "drugs": [
+      "curcumin"
+    ],
+    "nctids": [
+      "NCT01928043"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      13240
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001357",
+    "label": 0,
+    "canonical_smiles": "Cc1cc(O)cc(C)c1Cl",
+    "normalized_disease": "diabetic gastroparesis",
+    "example_smiles": "CC1=CC(O)=CC(C)=C1Cl",
+    "example_disease": "diabetic gastroparesis",
+    "drugs": [],
+    "nctids": [
+      "NCT02289846"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      14854
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000005",
+    "label": 1,
+    "canonical_smiles": "C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3C(=C)C[C@@]21CC",
+    "normalized_disease": "contraception",
+    "example_smiles": "[H][C@@]12CC[C@@](O)(C#C)[C@@]1(CC)CC(=C)[C@]1([H])[C@@]3([H])CCC(=O)C=C3CC[C@@]21[H]",
+    "example_disease": "contraception",
+    "drugs": [
+      "ethinylestradiol + etonogestrel vaginal ring (nuvaring)",
+      "etonogestrel contraceptive implant"
+    ],
+    "nctids": [
+      "NCT01490190",
+      "NCT02852265"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10861,
+      16675
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-002132",
+    "label": 0,
+    "canonical_smiles": "O=C(c1ccc2nccnc2c1)N1CCCCC1",
+    "normalized_disease": "schizophrenia",
+    "example_smiles": "O=C(N1CCCCC1)C1=CC2=C(C=C1)N=CC=N2",
+    "example_disease": "schizophrenia",
+    "drugs": [
+      "cx516 (ampakine)"
+    ],
+    "nctids": [
+      "NCT00235352"
+    ],
+    "phases": [
+      "phase 2/phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1932
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002085",
+    "label": 0,
+    "canonical_smiles": "O=C(O)CC(O)(CC(=O)O)C(=O)O",
+    "normalized_disease": "interstitial cystitis",
+    "example_smiles": "OC(=O)CC(O)(CC(O)=O)C(O)=O",
+    "example_disease": "interstitial cystitis",
+    "drugs": [
+      "hyaluronic acid/chondroitin sulfate"
+    ],
+    "nctids": [
+      "NCT01813565"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      12680
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002379",
+    "label": 1,
+    "canonical_smiles": "[Cl-].[Na+]",
+    "normalized_disease": "heart disease",
+    "example_smiles": "[Na+].[Cl-]",
+    "example_disease": "heart disease",
+    "drugs": [],
+    "nctids": [
+      "NCT01471730"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10727
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000542",
+    "label": 1,
+    "canonical_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "normalized_disease": "liver cancer",
+    "example_smiles": "CCN(CC)CCNC(=O)C1=C(C)NC(\\C=C2/C(=O)NC3=C2C=C(F)C=C3)=C1C",
+    "example_disease": "liver cancer",
+    "drugs": [
+      "sunitinib malate"
+    ],
+    "nctids": [
+      "NCT00514228"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5028
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002373",
+    "label": 1,
+    "canonical_smiles": "[Cl-].[Na+]",
+    "normalized_disease": "chronic hepatitis c",
+    "example_smiles": "[Na+].[Cl-]",
+    "example_disease": "chronic hepatitis c",
+    "drugs": [],
+    "nctids": [
+      "NCT01459419"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      10631
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001049",
+    "label": 0,
+    "canonical_smiles": "COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC",
+    "normalized_disease": "urinary retention",
+    "example_smiles": "COC1=CC2=C(C=C1OC)C(N)=NC(=N2)N(C)CCCNC(=O)C1CCCO1",
+    "example_disease": "urinary retention",
+    "drugs": [
+      "alfuzosin"
+    ],
+    "nctids": [
+      "NCT00453908"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      4348
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001824",
+    "label": 0,
+    "canonical_smiles": "N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1",
+    "normalized_disease": "hiv infection",
+    "example_smiles": "N#CC[C@H](C1CCCC1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1",
+    "example_disease": "hiv infections",
+    "drugs": [
+      "ruxolitinib"
+    ],
+    "nctids": [
+      "NCT02475655"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15587
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002251",
+    "label": 0,
+    "canonical_smiles": "O=P1(N(CCCl)CCCl)NCCCO1",
+    "normalized_disease": "bronchiolitis obliterans",
+    "example_smiles": "ClCCN(CCCl)P1(=O)NCCCO1",
+    "example_disease": "bronchiolitis obliterans",
+    "drugs": [
+      "bortezomib"
+    ],
+    "nctids": [
+      "NCT01163786"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      8639
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001816",
+    "label": 1,
+    "canonical_smiles": "FC(F)(F)c1ccc(CNc2ccc(Cc3c[nH]c4ncc(Cl)cc34)cn2)cn1",
+    "normalized_disease": "hodgkin lymphoma",
+    "example_smiles": "FC(F)(F)C1=CC=C(CNC2=NC=C(CC3=CNC4=NC=C(Cl)C=C34)C=C2)C=N1",
+    "example_disease": "hodgkin lymphoma",
+    "drugs": [
+      "plx3397"
+    ],
+    "nctids": [
+      "NCT01217229"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9052
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001382",
+    "label": 0,
+    "canonical_smiles": "Cc1cc(O)cc(C)c1Cl",
+    "normalized_disease": "proliferative diabetic retinopathy",
+    "example_smiles": "CC1=CC(O)=CC(C)=C1Cl",
+    "example_disease": "proliferative diabetic retinopathy",
+    "drugs": [],
+    "nctids": [
+      "NCT01589718"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      11440
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001593",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "diabetic nephropathies",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "diabetic nephropathies",
+    "drugs": [],
+    "nctids": [
+      "NCT01874431"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13006
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000252",
+    "label": 1,
+    "canonical_smiles": "CC(C)OC(=O)CCC/C=C\\C[C@@H]1[C@@H](/C=C/[C@@H](O)COc2cccc(C(F)(F)F)c2)[C@H](O)C[C@@H]1O",
+    "normalized_disease": "glaucoma",
+    "example_smiles": "CC(C)OC(=O)CCC\\C=C/C[C@H]1[C@@H](O)C[C@@H](O)[C@@H]1\\C=C\\[C@@H](O)COC1=CC=CC(=C1)C(F)(F)F",
+    "example_disease": "glaucoma",
+    "drugs": [
+      "travoprost 0.004%/timolol 0.5% fixed combination eye drops solution (duotrav®)",
+      "travoprost 0.004%/timolol maleate 0.5% fixed combination",
+      "travoprost 0.004%/timolol maleate 0.5% fixed combination ophthalmic solution (duotrav)",
+      "travoprost/timolol fixed combination, travoprost"
+    ],
+    "nctids": [
+      "NCT00444184",
+      "NCT00519753",
+      "NCT01230736",
+      "NCT01336569"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4230,
+      5095,
+      9151,
+      9892
+    ],
+    "trial_count": 4,
+    "record_count": 4
+  },
+  {
+    "pair_id": "PAIR-001118",
+    "label": 1,
+    "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "normalized_disease": "advanced cancer",
+    "example_smiles": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+    "example_disease": "advanced cancer",
+    "drugs": [
+      "zio-201-t and doxorubicin"
+    ],
+    "nctids": [
+      "NCT00608803"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5988
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000336",
+    "label": 1,
+    "canonical_smiles": "CC1=C(/C=C/C(C)=C\\C=C\\C(C)=C\\C(=O)O)C(C)(C)CCC1",
+    "normalized_disease": "eczema",
+    "example_smiles": "C\\C(\\C=C\\C1=C(C)CCCC1(C)C)=C\\C=C\\C(\\C)=C\\C(O)=O",
+    "example_disease": "eczema",
+    "drugs": [
+      "alitretinoin"
+    ],
+    "nctids": [
+      "NCT00519675"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5094
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000915",
+    "label": 1,
+    "canonical_smiles": "COC[C@@H](NC(C)=O)C(=O)NCc1ccccc1",
+    "normalized_disease": "epilepsy",
+    "example_smiles": "COC[C@@H](NC(C)=O)C(=O)NCC1=CC=CC=C1",
+    "example_disease": "epilepsy",
+    "drugs": [
+      "lacosamide"
+    ],
+    "nctids": [
+      "NCT00515619",
+      "NCT01118949",
+      "NCT01118962",
+      "NCT01484977",
+      "NCT01921205"
+    ],
+    "phases": [
+      "phase 2",
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5051,
+      8320,
+      8321,
+      10822,
+      13209
+    ],
+    "trial_count": 5,
+    "record_count": 5
+  },
+  {
+    "pair_id": "PAIR-000972",
+    "label": 1,
+    "canonical_smiles": "CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](OCCO)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C",
+    "normalized_disease": "metastatic renal cell carcinoma",
+    "example_smiles": "[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)\\C=C(C)\\[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)\\C=C\\C=C\\C=C(C)\\[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](OCCO)[C@@H](C1)OC",
+    "example_disease": "metastatic renal cell carcinoma",
+    "drugs": [
+      "everolimus (rad001)"
+    ],
+    "nctids": [
+      "NCT01152801"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      8558
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002100",
+    "label": 0,
+    "canonical_smiles": "O=C(O)[C@H]1/C(=C/CO)O[C@@H]2CC(=O)N21",
+    "normalized_disease": "major depressive disorder",
+    "example_smiles": "[H][C@@]12CC(=O)N1[C@@H](C(O)=O)\\C(O2)=C\\CO",
+    "example_disease": "major depressive disorder",
+    "drugs": [
+      "rx-10100"
+    ],
+    "nctids": [
+      "NCT01273376"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9457
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001796",
+    "label": 1,
+    "canonical_smiles": "Cn1cnc2c(F)c(Nc3ccc(Br)cc3Cl)c(C(O)=NOCCO)cc21",
+    "normalized_disease": "gastric adenocarcinoma",
+    "example_smiles": "CN1C=NC2=C1C=C(C(O)=NOCCO)C(NC1=C(Cl)C=C(Br)C=C1)=C2F",
+    "example_disease": "gastric adenocarcinoma",
+    "drugs": [
+      "docetaxel plus selumetinib"
+    ],
+    "nctids": [
+      "NCT02448290"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15476
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000744",
+    "label": 1,
+    "canonical_smiles": "CN1CCN2c3c(cccc31)[C@@H]1CN(CCCC(=O)c3ccc(F)cc3)CC[C@@H]12",
+    "normalized_disease": "bipolar depression",
+    "example_smiles": "[H][C@]12CCN(CCCC(=O)C3=CC=C(F)C=C3)C[C@@]1([H])C1=CC=CC3=C1N2CCN3C",
+    "example_disease": "bipolar depression",
+    "drugs": [
+      "lumateperone"
+    ],
+    "nctids": [
+      "NCT03249376"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      17294
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001848",
+    "label": 1,
+    "canonical_smiles": "N=C(N)NCCC[C@H](N)C(=O)O",
+    "normalized_disease": "chronic lymphocytic leukemia",
+    "example_smiles": "N[C@@H](CCCNC(N)=N)C(O)=O",
+    "example_disease": "chronic lymphocytic leukemia",
+    "drugs": [
+      "alemtuzumab"
+    ],
+    "nctids": [
+      "NCT01392079"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10229
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000907",
+    "label": 0,
+    "canonical_smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "normalized_disease": "perennial allergic rhinitis",
+    "example_smiles": "COCCC1=CC=C(OCC(O)CNC(C)C)C=C1",
+    "example_disease": "perennial allergic rhinitis",
+    "drugs": [],
+    "nctids": [
+      "NCT03009136"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      17008
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000257",
+    "label": 1,
+    "canonical_smiles": "CC(C)OC(=O)OCOP(=O)(CO[C@H](C)Cn1cnc2c(N)ncnc21)OCOC(=O)OC(C)C",
+    "normalized_disease": "hiv",
+    "example_smiles": "[H][C@@](C)(CN1C=NC2=C(N)N=CN=C12)OCP(=O)(OCOC(=O)OC(C)C)OCOC(=O)OC(C)C",
+    "example_disease": "hiv",
+    "drugs": [
+      "1% tenofovir gel",
+      "dolutegravir, efavirenz, efavirenz/emtricitabine/tenofovir",
+      "efavirenz",
+      "emtricitabine / tenofovir 200/300 mg",
+      "eviplera",
+      "mvc/ral/ftc/tdf followed by maraviroc/raltegravir",
+      "rilpivirine/emtricitabine/tenofovir",
+      "tenofovir/emtricitabine/rilpivirine"
+    ],
+    "nctids": [
+      "NCT01291459",
+      "NCT01641016",
+      "NCT01691768",
+      "NCT01701882",
+      "NCT01989611",
+      "NCT02104700",
+      "NCT02285374",
+      "NCT02529059"
+    ],
+    "phases": [
+      "n/a",
+      "phase 2",
+      "phase 2/phase 3",
+      "phase 3",
+      "phase 4"
+    ],
+    "statuses": [
+      "completed",
+      "unknown status"
+    ],
+    "source_row_ids": [
+      9568,
+      11725,
+      11998,
+      12056,
+      13534,
+      14044,
+      14836,
+      15758
+    ],
+    "trial_count": 8,
+    "record_count": 8
+  },
+  {
+    "pair_id": "PAIR-001714",
+    "label": 0,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "peripheral arterial disease",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "peripheral arterial disease",
+    "drugs": [],
+    "nctids": [
+      "NCT02215824"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      14529
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000909",
+    "label": 1,
+    "canonical_smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "normalized_disease": "pruritus",
+    "example_smiles": "COCCC1=CC=C(OCC(O)CNC(C)C)C=C1",
+    "example_disease": "pruritus",
+    "drugs": [],
+    "nctids": [
+      "NCT02639052"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      16124
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002136",
+    "label": 1,
+    "canonical_smiles": "O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1",
+    "normalized_disease": "autism",
+    "example_smiles": "ClC1=CC=CC(N2CCN(CCCCOC3=CC4=C(CCC(=O)N4)C=C3)CC2)=C1Cl",
+    "example_disease": "autism",
+    "drugs": [
+      "aripiprazole"
+    ],
+    "nctids": [
+      "NCT00208533"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1704
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000112",
+    "label": 0,
+    "canonical_smiles": "CC(=N)NCCSCC[C@H](N)C(=O)O",
+    "normalized_disease": "migraine disorders",
+    "example_smiles": "CC(=N)NCCSCC[C@H](N)C(O)=O",
+    "example_disease": "migraine disorders",
+    "drugs": [
+      "gw274150"
+    ],
+    "nctids": [
+      "NCT00242866"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1992
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000484",
+    "label": 0,
+    "canonical_smiles": "CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+    "normalized_disease": "nonalcoholic steatohepatitis",
+    "example_smiles": "CCCCC1=NC(Cl)=C(CO)N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1",
+    "example_disease": "nonalcoholic steatohepatitis",
+    "drugs": [
+      "losartan"
+    ],
+    "nctids": [
+      "NCT01051219"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      7820
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002262",
+    "label": 1,
+    "canonical_smiles": "O=P1(N(CCCl)CCCl)NCCCO1",
+    "normalized_disease": "hemophilia a",
+    "example_smiles": "ClCCN(CCCl)P1(=O)NCCCO1",
+    "example_disease": "hemophilia a",
+    "drugs": [
+      "rituximab"
+    ],
+    "nctids": [
+      "NCT00331006"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2892
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001813",
+    "label": 1,
+    "canonical_smiles": "Cn1nnc2c(C(N)=O)ncn2c1=O",
+    "normalized_disease": "recurrent mantle cell lymphoma",
+    "example_smiles": "CN1N=NC2=C(N=CN2C1=O)C(N)=O",
+    "example_disease": "recurrent mantle cell lymphoma",
+    "drugs": [
+      "temsirolimus"
+    ],
+    "nctids": [
+      "NCT00109967"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      929
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001271",
+    "label": 1,
+    "canonical_smiles": "C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+    "normalized_disease": "duchenne muscular dystrophy",
+    "example_smiles": "[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C",
+    "example_disease": "duchenne muscular dystrophy",
+    "drugs": [
+      "prednisolone"
+    ],
+    "nctids": [
+      "NCT02167217"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      14338
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001484",
+    "label": 1,
+    "canonical_smiles": "Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1",
+    "normalized_disease": "transitional cell carcinoma of the bladder",
+    "example_smiles": "CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1",
+    "example_disease": "transitional cell carcinoma of the bladder",
+    "drugs": [
+      "dasatinib"
+    ],
+    "nctids": [
+      "NCT00706641"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      6982
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000822",
+    "label": 1,
+    "canonical_smiles": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "normalized_disease": "schizophrenia",
+    "example_smiles": "CNCCC(OC1=CC=C(C=C1)C(F)(F)F)C1=CC=CC=C1",
+    "example_disease": "schizophrenia",
+    "drugs": [
+      "olanzapine"
+    ],
+    "nctids": [
+      "NCT00259870",
+      "NCT00290121",
+      "NCT02694328"
+    ],
+    "phases": [
+      "phase 2",
+      "phase 3",
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2170,
+      2443,
+      16282
+    ],
+    "trial_count": 3,
+    "record_count": 3
+  },
+  {
+    "pair_id": "PAIR-001600",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "diarrhea predominant irritable bowel syndrome",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "diarrhea predominant irritable bowel syndrome",
+    "drugs": [],
+    "nctids": [
+      "NCT01896583"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13095
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000056",
+    "label": 0,
+    "canonical_smiles": "C=C(C)[C@@H]1CCC(C)=C[C@H]1c1c(O)cc(CCCCC)cc1O",
+    "normalized_disease": "multiple sclerosis",
+    "example_smiles": "CCCCCC1=CC(O)=C([C@@H]2C=C(C)CC[C@H]2C(C)=C)C(O)=C1",
+    "example_disease": "multiple sclerosis",
+    "drugs": [
+      "smoked cannabis"
+    ],
+    "nctids": [
+      "NCT00260741"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      2175
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000668",
+    "label": 0,
+    "canonical_smiles": "CN(C)C(=O)c1cc2cnc(Nc3ccc(N4CCNCC4)cn3)nc2n1C1CCCC1",
+    "normalized_disease": "squamous cell carcinoma of the head and neck",
+    "example_smiles": "CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1",
+    "example_disease": "squamous cell carcinoma of the head and neck",
+    "drugs": [
+      "lee011",
+      "ribociclib"
+    ],
+    "nctids": [
+      "NCT02429089",
+      "NCT03179956"
+    ],
+    "phases": [
+      "early phase 1",
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      15411,
+      17233
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001935",
+    "label": 1,
+    "canonical_smiles": "NC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H](N)C[C@@H]2N)[C@H](N)C[C@@H]1O",
+    "normalized_disease": "dry eye syndrome",
+    "example_smiles": "NC[C@H]1O[C@H](O[C@@H]2[C@@H](N)C[C@@H](N)[C@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H]2O)[C@H](N)C[C@@H]1O",
+    "example_disease": "dry eye syndrome",
+    "drugs": [
+      "tobramycin and dexamethasone ophthalmic ointment"
+    ],
+    "nctids": [
+      "NCT02958514"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      16902
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000757",
+    "label": 0,
+    "canonical_smiles": "CN1NC(=N)c2cn([C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)c3ncnc1c23",
+    "normalized_disease": "cancer",
+    "example_smiles": "[H][C@]1(CO)O[C@@]([H])(N2C=C3C4=C(N=CN=C24)N(C)NC3=N)[C@]([H])(O)[C@]1([H])O",
+    "example_disease": "cancer",
+    "drugs": [
+      "triciribine phosphate monohydrate"
+    ],
+    "nctids": [
+      "NCT00363454"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      3202
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000144",
+    "label": 0,
+    "canonical_smiles": "CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@@]1(C)C(=O)[C@H](O)C3=C(C)[C@@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@@](O)([C@@H](OC(=O)c4ccccc4)[C@H]21)C3(C)C",
+    "normalized_disease": "prostate cancer",
+    "example_smiles": "[H][C@@]12C[C@H](O)[C@@]3(C)C(=O)[C@H](O)C4=C(C)[C@H](C[C@@](O)([C@@H](OC(=O)C5=CC=CC=C5)[C@]3([H])[C@@]1(CO2)OC(C)=O)C4(C)C)OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C1=CC=CC=C1",
+    "example_disease": "prostate cancer",
+    "drugs": [
+      "chemotherapy (docetaxel and prednisone)",
+      "chemotherapy (taxotere and prednisone)"
+    ],
+    "nctids": [
+      "NCT00089856",
+      "NCT00133224"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      701,
+      1169
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001395",
+    "label": 0,
+    "canonical_smiles": "Cc1cc(O)cc(C)c1Cl",
+    "normalized_disease": "tibial fractures",
+    "example_smiles": "CC1=CC(O)=CC(C)=C1Cl",
+    "example_disease": "tibial fractures",
+    "drugs": [
+      "bupivacaine"
+    ],
+    "nctids": [
+      "NCT02951884"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      16887
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001422",
+    "label": 1,
+    "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "normalized_disease": "leukemia",
+    "example_smiles": "CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1",
+    "example_disease": "leukemia",
+    "drugs": [
+      "imatinib mesylate"
+    ],
+    "nctids": [
+      "NCT00509093"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4968
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002328",
+    "label": 1,
+    "canonical_smiles": "OCC(O)CO",
+    "normalized_disease": "dry eye syndromes",
+    "example_smiles": "OCC(O)CO",
+    "example_disease": "dry eye syndromes",
+    "drugs": [],
+    "nctids": [
+      "NCT01459588",
+      "NCT02553772"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10632,
+      15824
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001681",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "migraine prophylaxis",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "migraine prophylaxis",
+    "drugs": [],
+    "nctids": [
+      "NCT03308968"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      17351
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002329",
+    "label": 1,
+    "canonical_smiles": "OCCOCCN1CCN(C2=Nc3ccccc3Sc3ccccc32)CC1",
+    "normalized_disease": "anxiety disorders",
+    "example_smiles": "OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12",
+    "example_disease": "anxiety disorders",
+    "drugs": [
+      "quetiapine sr"
+    ],
+    "nctids": [
+      "NCT00314210"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2701
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001284",
+    "label": 0,
+    "canonical_smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+    "normalized_disease": "endometrial cancer",
+    "example_smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3",
+    "example_disease": "endometrial cancer",
+    "drugs": [
+      "conjugated estrogens"
+    ],
+    "nctids": [
+      "NCT00002976"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      44
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000818",
+    "label": 0,
+    "canonical_smiles": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+    "normalized_disease": "bipolar disorder",
+    "example_smiles": "CNCCC(OC1=CC=C(C=C1)C(F)(F)F)C1=CC=CC=C1",
+    "example_disease": "bipolar disorder",
+    "drugs": [
+      "olanzapine"
+    ],
+    "nctids": [
+      "NCT00191997"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1599
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000446",
+    "label": 1,
+    "canonical_smiles": "CCCCCCCOC(=O)NC1=NC(=O)N([C@H]2C[C@H](O)[C@@H](CO)O2)CN1",
+    "normalized_disease": "hiv infection",
+    "example_smiles": "CCCCCCCOC(=O)NC1=NC(=O)N(CN1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+    "example_disease": "hiv infections",
+    "drugs": [
+      "kp-1461"
+    ],
+    "nctids": [
+      "NCT00504452"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      4913
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001500",
+    "label": 1,
+    "canonical_smiles": "Cc1nnc(C(C)C)n1[C@@H]1C[C@H]2CC[C@@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)c1ccccc1",
+    "normalized_disease": "hiv",
+    "example_smiles": "CC(C)C1=NN=C(C)N1[C@H]1C[C@@H]2CC[C@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)C1=CC=CC=C1",
+    "example_disease": "hiv",
+    "drugs": [
+      "maraviroc",
+      "optimized background regimen (obr)"
+    ],
+    "nctids": [
+      "NCT01384682",
+      "NCT02475629"
+    ],
+    "phases": [
+      "phase 3",
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10186,
+      15586
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-002203",
+    "label": 0,
+    "canonical_smiles": "O=C1[O][Pt]2(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)[O]C1=O",
+    "normalized_disease": "pancreas cancer",
+    "example_smiles": "[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1",
+    "example_disease": "pancreas cancer",
+    "drugs": [
+      "gemcitabine"
+    ],
+    "nctids": [
+      "NCT00300950"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2560
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000844",
+    "label": 0,
+    "canonical_smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(COC(C)=O)CS[C@H]12)c1csc(N)n1",
+    "normalized_disease": "squamous cell cancer of the head and neck",
+    "example_smiles": "[H][C@]12SCC(COC(C)=O)=C(N1C(=O)[C@H]2NC(=O)C(=N/OC)\\C1=CSC(N)=N1)C(O)=O",
+    "example_disease": "squamous cell cancer of the head and neck",
+    "drugs": [
+      "cetuximab"
+    ],
+    "nctids": [
+      "NCT00934518"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      7398
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000649",
+    "label": 1,
+    "canonical_smiles": "CN(C(=O)c1ccc(F)cc1C(F)(F)F)C1CCN(c2nnc(-c3ccnn3C)c3ccccc23)CC1",
+    "normalized_disease": "advanced cancer",
+    "example_smiles": "CN(C1CCN(CC1)C1=NN=C(C2=CC=NN2C)C2=CC=CC=C12)C(=O)C1=C(C=C(F)C=C1)C(F)(F)F",
+    "example_disease": "advanced cancer",
+    "drugs": [
+      "taladegib"
+    ],
+    "nctids": [
+      "NCT01226485"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9115
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001477",
+    "label": 0,
+    "canonical_smiles": "Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1",
+    "normalized_disease": "non small cell lung cancer",
+    "example_smiles": "CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1",
+    "example_disease": "non small cell lung cancer",
+    "drugs": [
+      "dasatinib"
+    ],
+    "nctids": [
+      "NCT00787267"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      7312
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000469",
+    "label": 1,
+    "canonical_smiles": "CCCCC[C@H](O)CC[C@@H]1[C@H]2Cc3cccc(OCC(=O)O)c3C[C@H]2C[C@H]1O",
+    "normalized_disease": "pulmonary hypertension",
+    "example_smiles": "[H][C@]12C[C@@H](O)[C@H](CC[C@@H](O)CCCCC)[C@@]1([H])CC1=C(C2)C(OCC(O)=O)=CC=C1",
+    "example_disease": "pulmonary hypertension",
+    "drugs": [
+      "oral treprostinil (ut-15c) sustained release tablets",
+      "treprostinil sodium"
+    ],
+    "nctids": [
+      "NCT00325403",
+      "NCT00373360"
+    ],
+    "phases": [
+      "phase 3",
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2822,
+      3319
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001104",
+    "label": 1,
+    "canonical_smiles": "COc1ccc2c3c1O[C@H]1C(=O)CC[C@H]4[C@@H](C2)N(C)CC[C@]314",
+    "normalized_disease": "chronic pain",
+    "example_smiles": "[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])CCC2=O",
+    "example_disease": "chronic pain",
+    "drugs": [
+      "hydrocodone er"
+    ],
+    "nctids": [
+      "NCT01223365"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9090
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001928",
+    "label": 0,
+    "canonical_smiles": "NCCS",
+    "normalized_disease": "mitochondrial diseases",
+    "example_smiles": "NCCS",
+    "example_disease": "mitochondrial diseases",
+    "drugs": [
+      "cysteamine bitartrate"
+    ],
+    "nctids": [
+      "NCT02473445"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      15576
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002318",
+    "label": 1,
+    "canonical_smiles": "O=c1nc[nH]c2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
+    "normalized_disease": "cystic fibrosis",
+    "example_smiles": "OC[C@H]1O[C@H]([C@H](O)[C@@H]1O)N1C=NC2=C1NC=NC2=O",
+    "example_disease": "cystic fibrosis",
+    "drugs": [
+      "nitric oxide"
+    ],
+    "nctids": [
+      "NCT01958944"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13380
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001610",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "eosinophilic esophagitis",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "eosinophilic esophagitis",
+    "drugs": [],
+    "nctids": [
+      "NCT01022970",
+      "NCT02098473",
+      "NCT03191864"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      7609,
+      14019,
+      17241
+    ],
+    "trial_count": 3,
+    "record_count": 3
+  },
+  {
+    "pair_id": "PAIR-000654",
+    "label": 0,
+    "canonical_smiles": "CN(C)/N=N/c1[nH]cnc1C(N)=O",
+    "normalized_disease": "leukemia",
+    "example_smiles": "CN(C)\\N=N\\C1=C(N=CN1)C(N)=O",
+    "example_disease": "leukemia",
+    "drugs": [
+      "decitabine"
+    ],
+    "nctids": [
+      "NCT01786343",
+      "NCT02234037"
+    ],
+    "phases": [
+      "phase 1",
+      "phase 2"
+    ],
+    "statuses": [
+      "completed",
+      "terminated"
+    ],
+    "source_row_ids": [
+      12537,
+      14613
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-002409",
+    "label": 0,
+    "canonical_smiles": "[NH3]->[Pt](<-[NH3])([Cl])[Cl]",
+    "normalized_disease": "liver cancer",
+    "example_smiles": "[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]",
+    "example_disease": "liver cancer",
+    "drugs": [
+      "pemetrexed"
+    ],
+    "nctids": [
+      "NCT00191412"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1583
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001585",
+    "label": 0,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "dementia with lewy bodies",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "dementia with lewy bodies",
+    "drugs": [],
+    "nctids": [
+      "NCT03592862"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      17539
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000390",
+    "label": 0,
+    "canonical_smiles": "CCC1=C[C@@H]2CN(C1)Cc1c([nH]c3ccccc13)[C@@](C(=O)OC)(c1cc3c(cc1OC)N(C)[C@H]1[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]4(CC)C=CCN5CC[C@]31[C@@H]54)C2",
+    "normalized_disease": "metastatic breast cancer",
+    "example_smiles": "[H][C@@]12N(C)C3=CC(OC)=C(C=C3[C@@]11CCN3CC=C[C@](CC)([C@@]13[H])[C@@]([H])(OC(C)=O)[C@]2(O)C(=O)OC)[C@]1(C[C@@]2([H])CN(CC(CC)=C2)CC2=C1NC1=CC=CC=C21)C(=O)OC",
+    "example_disease": "metastatic breast cancer",
+    "drugs": [
+      "lapatinib, vinorelbine"
+    ],
+    "nctids": [
+      "NCT01161368"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      8625
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000559",
+    "label": 1,
+    "canonical_smiles": "CCNC(=O)c1noc(-c2cc(C(C)(C)C)c(O)cc2O)c1-c1ccc(CN2CCOCC2)cc1",
+    "normalized_disease": "advanced solid tumors",
+    "example_smiles": "CCNC(=O)C1=NOC(=C1C1=CC=C(CN2CCOCC2)C=C1)C1=CC(=C(O)C=C1O)C(C)(C)C",
+    "example_disease": "advanced solid tumors",
+    "drugs": [
+      "auy922"
+    ],
+    "nctids": [
+      "NCT01132625"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      8428
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001679",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "migraine disorders",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "migraine disorders",
+    "drugs": [],
+    "nctids": [
+      "NCT00382993",
+      "NCT02559895"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      3429,
+      15850
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000661",
+    "label": 0,
+    "canonical_smiles": "CN(C)C(=N)NC(=N)N",
+    "normalized_disease": "chronic hepatitis c",
+    "example_smiles": "CN(C)C(=N)NC(N)=N",
+    "example_disease": "chronic hepatitis c",
+    "drugs": [
+      "metformine"
+    ],
+    "nctids": [
+      "NCT00546442"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5400
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000842",
+    "label": 0,
+    "canonical_smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(COC(C)=O)CS[C@H]12)c1csc(N)n1",
+    "normalized_disease": "nasopharyngeal carcinoma",
+    "example_smiles": "[H][C@]12SCC(COC(C)=O)=C(N1C(=O)[C@H]2NC(=O)C(=N/OC)\\C1=CSC(N)=N1)C(O)=O",
+    "example_disease": "nasopharyngeal carcinoma",
+    "drugs": [
+      "cetuximab"
+    ],
+    "nctids": [
+      "NCT01230476"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      9148
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000235",
+    "label": 1,
+    "canonical_smiles": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+    "normalized_disease": "alcoholism",
+    "example_smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(O)=O",
+    "example_disease": "alcoholism",
+    "drugs": [
+      "levetiracetam"
+    ],
+    "nctids": [
+      "NCT00325182"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2818
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001450",
+    "label": 1,
+    "canonical_smiles": "Cc1cn(-c2cc(NC(=O)c3ccc(C)c(Nc4nccc(-c5cccnc5)n4)c3)cc(C(F)(F)F)c2)cn1",
+    "normalized_disease": "chronic myeloid leukemia",
+    "example_smiles": "CC1=CN(C=N1)C1=CC(NC(=O)C2=CC=C(C)C(NC3=NC=CC(=N3)C3=CN=CC=C3)=C2)=CC(=C1)C(F)(F)F",
+    "example_disease": "chronic myeloid leukemia",
+    "drugs": [
+      "nilotinib",
+      "nilotinib, imatinib"
+    ],
+    "nctids": [
+      "NCT00481052",
+      "NCT01254188",
+      "NCT01400074",
+      "NCT01535391",
+      "NCT01698905"
+    ],
+    "phases": [
+      "phase 2",
+      "phase 3"
+    ],
+    "statuses": [
+      "active, not recruiting",
+      "completed",
+      "unknown status"
+    ],
+    "source_row_ids": [
+      4643,
+      9328,
+      10294,
+      11138,
+      12044
+    ],
+    "trial_count": 5,
+    "record_count": 5
+  },
+  {
+    "pair_id": "PAIR-000938",
+    "label": 1,
+    "canonical_smiles": "CO[C@H]1C(=O)[C@]2(C)[C@@H](OC)C[C@H]3OC[C@@]3(OC(C)=O)[C@H]2[C@H](OC(=O)c2ccccc2)[C@]2(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c3ccccc3)C(C)=C1C2(C)C",
+    "normalized_disease": "gastric cancer",
+    "example_smiles": "[H][C@]12[C@H](OC(=O)C3=CC=CC=C3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C4=CC=CC=C4)C(C)=C([C@@H](OC)C(=O)[C@]1(C)[C@H](C[C@H]1OC[C@@]21OC(C)=O)OC)C3(C)C",
+    "example_disease": "gastric cancer",
+    "drugs": [
+      "cabazitaxel"
+    ],
+    "nctids": [
+      "NCT01956149"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13367
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000536",
+    "label": 0,
+    "canonical_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "normalized_disease": "bladder cancer",
+    "example_smiles": "CCN(CC)CCNC(=O)C1=C(C)NC(\\C=C2/C(=O)NC3=C2C=C(F)C=C3)=C1C",
+    "example_disease": "bladder cancer",
+    "drugs": [
+      "sutent"
+    ],
+    "nctids": [
+      "NCT00393796"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      3566
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000586",
+    "label": 0,
+    "canonical_smiles": "CCOc1cc(CC(=O)N[C@@H](CC(C)C)c2ccccc2N2CCCCC2)ccc1C(=O)O",
+    "normalized_disease": "diabetes",
+    "example_smiles": "CCOC1=C(C=CC(CC(=O)N[C@@H](CC(C)C)C2=CC=CC=C2N2CCCCC2)=C1)C(O)=O",
+    "example_disease": "diabetes",
+    "drugs": [
+      "repaglinide and insulin"
+    ],
+    "nctids": [
+      "NCT00231192"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      1887
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000922",
+    "label": 1,
+    "canonical_smiles": "CON(C)C(=O)N1N=C(c2cc(F)ccc2F)S[C@@]1(CCCN)c1ccccc1",
+    "normalized_disease": "advanced solid tumors",
+    "example_smiles": "CON(C)C(=O)N1N=C(S[C@@]1(CCCN)C1=CC=CC=C1)C1=CC(F)=CC=C1F",
+    "example_disease": "advanced solid tumors",
+    "drugs": [],
+    "nctids": [
+      "NCT00462358"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4447
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001356",
+    "label": 1,
+    "canonical_smiles": "Cc1cc(O)cc(C)c1Cl",
+    "normalized_disease": "diabetes mellitus",
+    "example_smiles": "CC1=CC(O)=CC(C)=C1Cl",
+    "example_disease": "diabetes mellitus",
+    "drugs": [
+      "acarbose"
+    ],
+    "nctids": [
+      "NCT00417729"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      3871
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001658",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "ischemic stroke",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "ischemic stroke",
+    "drugs": [
+      "placebo"
+    ],
+    "nctids": [
+      "NCT02222714"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      14560
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000231",
+    "label": 0,
+    "canonical_smiles": "CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)c1cnccn1)B(O)O",
+    "normalized_disease": "colorectal cancer",
+    "example_smiles": "CC(C)C[C@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C1=CN=CC=N1)B(O)O",
+    "example_disease": "colorectal cancer",
+    "drugs": [
+      "panitumumab and bortezomib"
+    ],
+    "nctids": [
+      "NCT01504477"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      10954
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000015",
+    "label": 1,
+    "canonical_smiles": "C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1",
+    "normalized_disease": "advanced solid tumors",
+    "example_smiles": "COCCOC1=CC2=C(C=C1OCCOC)C(NC1=CC(=CC=C1)C#C)=NC=N2",
+    "example_disease": "advanced solid tumors",
+    "drugs": [
+      "osi-930 and erlotinib"
+    ],
+    "nctids": [
+      "NCT00603356"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5929
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002222",
+    "label": 1,
+    "canonical_smiles": "O=C1c2cccc3c2[C@H](CCC3)CN1[C@@H]1CN2CCC1CC2",
+    "normalized_disease": "multiple myeloma",
+    "example_smiles": "[H][C@]12CCCC3=C1C(=CC=C3)C(=O)N(C2)[C@@H]1CN2CCC1CC2",
+    "example_disease": "multiple myeloma",
+    "drugs": [
+      "palonosetron"
+    ],
+    "nctids": [
+      "NCT00306735"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2627
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000110",
+    "label": 0,
+    "canonical_smiles": "CC#CC(=O)N1CCC[C@H]1c1nc(-c2ccc(C(=O)Nc3ccccn3)cc2)c2c(N)nccn12",
+    "normalized_disease": "metastatic urothelial carcinoma",
+    "example_smiles": "CC#CC(=O)N1CCC[C@H]1C1=NC(=C2N1C=CN=C2N)C1=CC=C(C=C1)C(=O)NC1=CC=CC=N1",
+    "example_disease": "metastatic urothelial carcinoma",
+    "drugs": [],
+    "nctids": [
+      "NCT02351739"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15108
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001144",
+    "label": 1,
+    "canonical_smiles": "COc1ccccc1Oc1c(NS(=O)(=O)c2ccc(C(C)(C)C)cc2)nc(-c2ncccn2)nc1OCCO",
+    "normalized_disease": "hiv infection",
+    "example_smiles": "COC1=CC=CC=C1OC1=C(NS(=O)(=O)C2=CC=C(C=C2)C(C)(C)C)N=C(N=C1OCCO)C1=NC=CC=N1",
+    "example_disease": "hiv infection",
+    "drugs": [
+      "treatment discontinuation",
+      "treatment simplification"
+    ],
+    "nctids": [
+      "NCT02199613",
+      "NCT03256422"
+    ],
+    "phases": [
+      "phase 3",
+      "phase 4"
+    ],
+    "statuses": [
+      "completed",
+      "unknown status"
+    ],
+    "source_row_ids": [
+      14460,
+      17305
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001267",
+    "label": 1,
+    "canonical_smiles": "C[C@]1(c2nc3cccc(C(N)=O)c3[nH]2)CCCN1",
+    "normalized_disease": "advanced solid tumors",
+    "example_smiles": "C[C@@]1(CCCN1)C1=NC2=CC=CC(C(N)=O)=C2N1",
+    "example_disease": "advanced solid tumors",
+    "drugs": [
+      "veliparib (abt-888)"
+    ],
+    "nctids": [
+      "NCT02210663"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      14507
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000876",
+    "label": 1,
+    "canonical_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "normalized_disease": "idiopathic pulmonary fibrosis",
+    "example_smiles": "COC(=O)C1=CC=C2C(NC(=O)\\C2=C(/NC2=CC=C(C=C2)N(C)C(=O)CN2CCN(C)CC2)C2=CC=CC=C2)=C1",
+    "example_disease": "idiopathic pulmonary fibrosis",
+    "drugs": [
+      "bibf 1120"
+    ],
+    "nctids": [
+      "NCT01619085"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "active, not recruiting"
+    ],
+    "source_row_ids": [
+      11621
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001121",
+    "label": 1,
+    "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "normalized_disease": "lymphoma",
+    "example_smiles": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+    "example_disease": "lymphoma",
+    "drugs": [
+      "pegylated liposomal doxorubicin hydrochloride"
+    ],
+    "nctids": [
+      "NCT00074087",
+      "NCT00244985"
+    ],
+    "phases": [
+      "phase 1/phase 2",
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      511,
+      2012
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000463",
+    "label": 0,
+    "canonical_smiles": "CCCCCOC(=O)Nc1nc(=O)n([C@@H]2O[C@H](C)[C@@H](O)[C@H]2O)cc1F",
+    "normalized_disease": "renal cell cancer",
+    "example_smiles": "CCCCCOC(=O)NC1=NC(=O)N(C=C1F)[C@@H]1O[C@H](C)[C@@H](O)[C@H]1O",
+    "example_disease": "renal cell cancer",
+    "drugs": [
+      "capecitabine, interferon, interleukin"
+    ],
+    "nctids": [
+      "NCT00311467"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      2670
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001781",
+    "label": 0,
+    "canonical_smiles": "Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21",
+    "normalized_disease": "prostate cancer",
+    "example_smiles": "CN1C(CCCC(O)=O)=NC2=CC(=CC=C12)N(CCCl)CCCl",
+    "example_disease": "prostate cancer",
+    "drugs": [],
+    "nctids": [
+      "NCT00103376"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      859
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002097",
+    "label": 0,
+    "canonical_smiles": "O=C(O)[C@@H]1CCCN1",
+    "normalized_disease": "hiv",
+    "example_smiles": "OC(=O)[C@@H]1CCCN1",
+    "example_disease": "hiv",
+    "drugs": [
+      "lopinavir/ritonavir"
+    ],
+    "nctids": [
+      "NCT00344487"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      3012
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002445",
+    "label": 1,
+    "canonical_smiles": "[O]=[Zn]",
+    "normalized_disease": "colorectal neoplasms",
+    "example_smiles": "O=[Zn]",
+    "example_disease": "colorectal neoplasms",
+    "drugs": [
+      "regorafenib (stivarga, bay73-4506)"
+    ],
+    "nctids": [
+      "NCT02465502"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15538
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001538",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "anklyosing spondylitis",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "anklyosing spondylitis",
+    "drugs": [],
+    "nctids": [
+      "NCT01649375"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      11778
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001590",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "diabetic foot infections",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "diabetic foot infections",
+    "drugs": [],
+    "nctids": [
+      "NCT02737722"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      16418
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000840",
+    "label": 0,
+    "canonical_smiles": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(COC(C)=O)CS[C@H]12)c1csc(N)n1",
+    "normalized_disease": "metastatic colorectal cancer",
+    "example_smiles": "[H][C@]12SCC(COC(C)=O)=C(N1C(=O)[C@H]2NC(=O)C(=N/OC)\\C1=CSC(N)=N1)C(O)=O",
+    "example_disease": "metastatic colorectal cancer",
+    "drugs": [
+      "cetuximab 5mg/ml"
+    ],
+    "nctids": [
+      "NCT00531115"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      5229
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001027",
+    "label": 0,
+    "canonical_smiles": "COc1cc2c(Oc3ccc(N=C(O)C4(C(=O)Nc5ccc(F)cc5)CC4)cc3F)ccnc2cc1OCCCN1CCOCC1",
+    "normalized_disease": "recurrent breast cancer",
+    "example_smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CC=C(OC3=C(F)C=C(C=C3)N=C(O)C3(CC3)C(=O)NC3=CC=C(F)C=C3)C2=C1",
+    "example_disease": "recurrent breast cancer",
+    "drugs": [
+      "foretinib"
+    ],
+    "nctids": [
+      "NCT01147484"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      8529
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001244",
+    "label": 0,
+    "canonical_smiles": "C[C@H](Cc1ccc(O)c(O)c1)[C@@H](C)Cc1ccc(O)c(O)c1",
+    "normalized_disease": "prostate cancer",
+    "example_smiles": "C[C@@H](CC1=CC(O)=C(O)C=C1)[C@H](C)CC1=CC(O)=C(O)C=C1",
+    "example_disease": "prostate cancer",
+    "drugs": [
+      "nordihydroguaiaretic acid (ndga)"
+    ],
+    "nctids": [
+      "NCT00678015"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      6714
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000991",
+    "label": 1,
+    "canonical_smiles": "CO[C@H]1O[C@H](COS(=O)(=O)O)[C@@H](O[C@@H]2O[C@@H](C(=O)O)[C@@H](O[C@H]3O[C@H](COS(=O)(=O)O)[C@@H](O[C@@H]4O[C@H](C(=O)O)[C@@H](O[C@H]5O[C@H](COS(=O)(=O)O)[C@@H](O)[C@H](O)[C@H]5NS(=O)(=O)O)[C@H](O)[C@H]4O)[C@H](OS(=O)(=O)O)[C@H]3NS(=O)(=O)O)[C@H](O)[C@H]2OS(=O)(=O)O)[C@H](O)[C@H]1NS(=O)(=O)O",
+    "normalized_disease": "venous thromboembolism",
+    "example_smiles": "CO[C@H]1O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]2O[C@H]([C@@H](O[C@H]3O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]4O[C@@H]([C@@H](O[C@H]5O[C@H](COS(O)(=O)=O)[C@@H](O)[C@H](O)[C@H]5NS(O)(=O)=O)[C@H](O)[C@H]4O)C(O)=O)[C@H](OS(O)(=O)=O)[C@H]3NS(O)(=O)=O)[C@H](O)[C@H]2OS(O)(=O)=O)C(O)=O)[C@H](O)[C@H]1NS(O)(=O)=O",
+    "example_disease": "venous thromboembolism",
+    "drugs": [
+      "fondaparinux sodium"
+    ],
+    "nctids": [
+      "NCT00531843"
+    ],
+    "phases": [
+      "phase 2/phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      5236
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000611",
+    "label": 1,
+    "canonical_smiles": "CC[C@H](C)[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(C)=O)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](Cc1ccccc1)C(N)=O",
+    "normalized_disease": "hiv",
+    "example_smiles": "CC[C@H](C)[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CN=CN1)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(C)=O)[C@@H](C)O)[C@@H](C)CC)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(O)=O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC1=CNC2=C1C=CC=C2)C(=O)N[C@@H](C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC1=CNC2=C1C=CC=C2)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC1=CNC2=C1C=CC=C2)C(=O)N[C@@H](CC1=CC=CC=C1)C(N)=O",
+    "example_disease": "hiv",
+    "drugs": [],
+    "nctids": [
+      "NCT02707861"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      16324
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001812",
+    "label": 0,
+    "canonical_smiles": "Cn1nnc2c(C(N)=O)ncn2c1=O",
+    "normalized_disease": "prostate cancer",
+    "example_smiles": "CN1N=NC2=C(N=CN2C1=O)C(N)=O",
+    "example_disease": "prostate cancer",
+    "drugs": [
+      "temsirolimus"
+    ],
+    "nctids": [
+      "NCT01083368"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      8059
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000726",
+    "label": 0,
+    "canonical_smiles": "CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21",
+    "normalized_disease": "dravet syndrome",
+    "example_smiles": "CN1C2=C(C=C(Cl)C=C2)N(C2=CC=CC=C2)C(=O)CC1=O",
+    "example_disease": "dravet syndrome",
+    "drugs": [
+      "clobazam"
+    ],
+    "nctids": [
+      "NCT02187809"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      14421
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000518",
+    "label": 1,
+    "canonical_smiles": "CCCc1nc(C(C)(C)O)c(C(=O)O)n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1",
+    "normalized_disease": "essential hypertension",
+    "example_smiles": "CCCC1=NC(=C(N1CC1=CC=C(C=C1)C1=C(C=CC=C1)C1=NN=NN1)C(O)=O)C(C)(C)O",
+    "example_disease": "essential hypertension",
+    "drugs": [
+      "olmesartan medoxomil + hydrochlorothiazide, if necessary + amlodipine, if necessary"
+    ],
+    "nctids": [
+      "NCT00311155"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2666
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001770",
+    "label": 0,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "treatment resistant depression",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "treatment resistant depression",
+    "drugs": [],
+    "nctids": [
+      "NCT01913535"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      13183
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000094",
+    "label": 0,
+    "canonical_smiles": "C=CCN1CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5",
+    "normalized_disease": "breast cancer",
+    "example_smiles": "OC1=CC=C2C[C@H]3N(CC=C)CC[C@@]45[C@@H](OC1=C24)C(=O)CC[C@@]35O",
+    "example_disease": "breast cancer",
+    "drugs": [
+      "naltrexone"
+    ],
+    "nctids": [
+      "NCT00379197"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      3388
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000344",
+    "label": 1,
+    "canonical_smiles": "CCC(=O)N(c1ccccc1)C1CCN(CCc2ccccc2)CC1",
+    "normalized_disease": "chronic pain",
+    "example_smiles": "CCC(=O)N(C1CCN(CCC2=CC=CC=C2)CC1)C1=CC=CC=C1",
+    "example_disease": "chronic pain",
+    "drugs": [
+      "fentanyl-tts"
+    ],
+    "nctids": [
+      "NCT01902524"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      13128
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002290",
+    "label": 0,
+    "canonical_smiles": "O=[As]O[As]=O",
+    "normalized_disease": "endometrial carcinoma",
+    "example_smiles": "O=[As]O[As]=O",
+    "example_disease": "endometrial carcinoma",
+    "drugs": [
+      "arsenic trioxide"
+    ],
+    "nctids": [
+      "NCT01184053"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      8781
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000360",
+    "label": 0,
+    "canonical_smiles": "CCC(C)CCCCC(=O)N[C@@H](CCN)C(=O)N[C@H](C(=O)N[C@@H](CCN)C(=O)N[C@H]1CCNC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CCN)NC(=O)[C@H](CCN)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](Cc2ccccc2)NC(=O)[C@@H](CCN)NC1=O)[C@@H](C)O",
+    "normalized_disease": "endometritis",
+    "example_smiles": "[H][C@]1(NC(=O)[C@H](CCN)NC(=O)[C@H](CCN)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)[C@@H](CCN)NC(=O)[C@H](CCNC1=O)NC(=O)[C@H](CCN)NC(=O)[C@@H](NC(=O)[C@H](CCN)NC(=O)CCCCC(C)CC)[C@@H](C)O)[C@@H](C)O",
+    "example_disease": "endometritis",
+    "drugs": [
+      "ertapenem"
+    ],
+    "nctids": [
+      "NCT01587495"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      11427
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002032",
+    "label": 0,
+    "canonical_smiles": "Nc1ncn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)n1",
+    "normalized_disease": "cancer",
+    "example_smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+    "example_disease": "cancer",
+    "drugs": [
+      "decitabine and pegylated interferon-alfa 2b"
+    ],
+    "nctids": [
+      "NCT00886457"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      7367
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002031",
+    "label": 1,
+    "canonical_smiles": "Nc1ncn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)n1",
+    "normalized_disease": "acute myeloid leukemia",
+    "example_smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+    "example_disease": "acute myeloid leukemia",
+    "drugs": [
+      "combination therapy using decitabine and midostaurin"
+    ],
+    "nctids": [
+      "NCT01130662"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      8417
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000684",
+    "label": 1,
+    "canonical_smiles": "CN(C)CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+    "normalized_disease": "diabetic neuropathies",
+    "example_smiles": "CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1",
+    "example_disease": "diabetic neuropathies",
+    "drugs": [
+      "duloxetine"
+    ],
+    "nctids": [
+      "NCT00322621"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2789
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001660",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "keratoconjunctivitis sicca",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "keratoconjunctivitis sicca",
+    "drugs": [],
+    "nctids": [
+      "NCT02121301"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      14128
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001564",
+    "label": 1,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "chronic heart failure",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "chronic heart failure",
+    "drugs": [],
+    "nctids": [
+      "NCT01251406",
+      "NCT01982292"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9305,
+      13501
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-000254",
+    "label": 1,
+    "canonical_smiles": "CC(C)OC(=O)CCC/C=C\\C[C@@H]1[C@@H](CC[C@@H](O)CCc2ccccc2)[C@H](O)C[C@@H]1O",
+    "normalized_disease": "primary open angle glaucoma",
+    "example_smiles": "CC(C)OC(=O)CCC\\C=C/C[C@H]1[C@@H](O)C[C@@H](O)[C@@H]1CC[C@@H](O)CCC1=CC=CC=C1",
+    "example_disease": "primary open angle glaucoma",
+    "drugs": [],
+    "nctids": [
+      "NCT01494753"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10894
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000522",
+    "label": 1,
+    "canonical_smiles": "CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1",
+    "normalized_disease": "hypertension",
+    "example_smiles": "CCCC1=NC2=C(C=C(C=C2C)C2=NC3=CC=CC=C3N2C)N1CC1=CC=C(C=C1)C1=CC=CC=C1C(O)=O",
+    "example_disease": "hypertension",
+    "drugs": [
+      "telmisartan 80 mg + hydrochlorothiazide 25 mg",
+      "telmisartan+amlodipine fixed dose combination",
+      "telmisartan/amlodipine"
+    ],
+    "nctids": [
+      "NCT00267943",
+      "NCT01134393",
+      "NCT01204398",
+      "NCT01426100"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      2256,
+      8445,
+      8957,
+      10431
+    ],
+    "trial_count": 4,
+    "record_count": 4
+  },
+  {
+    "pair_id": "PAIR-000400",
+    "label": 1,
+    "canonical_smiles": "CCCC(=O)O",
+    "normalized_disease": "neuropathic pain",
+    "example_smiles": "CCCC(O)=O",
+    "example_disease": "neuropathic pain",
+    "drugs": [
+      "intrathecal baclofen bolus"
+    ],
+    "nctids": [
+      "NCT02705950"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      16314
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000505",
+    "label": 1,
+    "canonical_smiles": "CCCN[C@H]1CCc2nc(N)sc2C1",
+    "normalized_disease": "restless legs syndrome",
+    "example_smiles": "CCCN[C@H]1CCC2=C(C1)SC(N)=N2",
+    "example_disease": "restless legs syndrome",
+    "drugs": [
+      "pramipexole"
+    ],
+    "nctids": [
+      "NCT00375284"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      3342
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001440",
+    "label": 1,
+    "canonical_smiles": "Cc1ccc(Sc2ccccc2N2CCNCC2)c(C)c1",
+    "normalized_disease": "panic disorder",
+    "example_smiles": "CC1=CC=C(SC2=CC=CC=C2N2CCNCC2)C(C)=C1",
+    "example_disease": "panic disorder",
+    "drugs": [
+      "vortioxetine"
+    ],
+    "nctids": [
+      "NCT02395510"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15266
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002177",
+    "label": 0,
+    "canonical_smiles": "O=C1[O][Pt]2(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)[O]C1=O",
+    "normalized_disease": "head and neck neoplasms",
+    "example_smiles": "[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1",
+    "example_disease": "head and neck neoplasms",
+    "drugs": [
+      "bevacizumab"
+    ],
+    "nctids": [
+      "NCT01262859"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "withdrawn"
+    ],
+    "source_row_ids": [
+      9383
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002182",
+    "label": 0,
+    "canonical_smiles": "O=C1[O][Pt]2(<-[NH2][C@@H]3CCCC[C@H]3[NH2]->2)[O]C1=O",
+    "normalized_disease": "lung cancer",
+    "example_smiles": "[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1",
+    "example_disease": "lung cancer",
+    "drugs": [
+      "docetaxel"
+    ],
+    "nctids": [
+      "NCT00227708",
+      "NCT00288054"
+    ],
+    "phases": [
+      "phase 1",
+      "phase 2"
+    ],
+    "statuses": [
+      "completed",
+      "terminated"
+    ],
+    "source_row_ids": [
+      1863,
+      2424
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-002416",
+    "label": 1,
+    "canonical_smiles": "[NH3]->[Pt](<-[NH3])([Cl])[Cl]",
+    "normalized_disease": "papillary renal cell carcinoma",
+    "example_smiles": "[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]",
+    "example_disease": "papillary renal cell carcinoma",
+    "drugs": [
+      "axitinib"
+    ],
+    "nctids": [
+      "NCT02489695"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      15646
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000146",
+    "label": 1,
+    "canonical_smiles": "CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O",
+    "normalized_disease": "breast cancer",
+    "example_smiles": "[H][C@]12[C@H](OC(=O)C3=CC=CC=C3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)C4=CC=CC=C4)C4=CC=CC=C4)C(C)=C([C@@H](OC(C)=O)C(=O)[C@]1(C)[C@@H](O)C[C@H]1OC[C@@]21OC(C)=O)C3(C)C",
+    "example_disease": "breast cancer",
+    "drugs": [
+      "nab-paclitaxel",
+      "pertuzumab in combination with trastuzumab and paclitaxel"
+    ],
+    "nctids": [
+      "NCT01276041",
+      "NCT01830244",
+      "NCT02783222"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed",
+      "unknown status"
+    ],
+    "source_row_ids": [
+      9474,
+      12764,
+      16543
+    ],
+    "trial_count": 3,
+    "record_count": 3
+  },
+  {
+    "pair_id": "PAIR-000203",
+    "label": 0,
+    "canonical_smiles": "CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1",
+    "normalized_disease": "asthma",
+    "example_smiles": "OC(=O)CC1(CC1)CS[C@H](CCC1=CC=CC=C1C(O)(C)C)C1=CC=CC(\\C=C\\C2=NC3=C(C=CC(Cl)=C3)C=C2)=C1",
+    "example_disease": "asthma",
+    "drugs": [],
+    "nctids": [
+      "NCT02104674"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      14043
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002115",
+    "label": 0,
+    "canonical_smiles": "O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1",
+    "normalized_disease": "hiv infection",
+    "example_smiles": "OC1=CC(O)=C2C[C@@H](OC(=O)C3=CC(O)=C(O)C(O)=C3)[C@H](OC2=C1)C1=CC(O)=C(O)C(O)=C1",
+    "example_disease": "hiv infection",
+    "drugs": [
+      "polyphenon e"
+    ],
+    "nctids": [
+      "NCT01433289"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      10467
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000273",
+    "label": 0,
+    "canonical_smiles": "CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)O",
+    "normalized_disease": "hepatitis c",
+    "example_smiles": "CC(C)C1=C(C(=O)NC2=CC=CC=C2)C(=C(N1CC[C@@H](O)C[C@@H](O)CC(O)=O)C1=CC=C(F)C=C1)C1=CC=CC=C1",
+    "example_disease": "hepatitis c",
+    "drugs": [
+      "ezetimibe"
+    ],
+    "nctids": [
+      "NCT02768545"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      16503
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002095",
+    "label": 1,
+    "canonical_smiles": "O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+    "normalized_disease": "knee osteoarthritis",
+    "example_smiles": "OC(=O)CC1=CC=CC=C1NC1=C(Cl)C=CC=C1Cl",
+    "example_disease": "knee osteoarthritis",
+    "drugs": [
+      "diclofenac gel"
+    ],
+    "nctids": [
+      "NCT01383954"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      10183
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002257",
+    "label": 1,
+    "canonical_smiles": "O=P1(N(CCCl)CCCl)NCCCO1",
+    "normalized_disease": "epithelial ovarian cancer",
+    "example_smiles": "ClCCN(CCCl)P1(=O)NCCCO1",
+    "example_disease": "epithelial ovarian cancer",
+    "drugs": [
+      "pazopanib"
+    ],
+    "nctids": [
+      "NCT01238770"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9217
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000303",
+    "label": 0,
+    "canonical_smiles": "CC(OC(=O)NCC1(CC(=O)O)CCCCC1)OC(=O)C(C)C",
+    "normalized_disease": "acute pain",
+    "example_smiles": "CC(C)C(=O)OC(C)OC(=O)NCC1(CC(O)=O)CCCCC1",
+    "example_disease": "acute pain",
+    "drugs": [
+      "gabapentin"
+    ],
+    "nctids": [
+      "NCT02856750"
+    ],
+    "phases": [
+      "early phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      16681
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000913",
+    "label": 0,
+    "canonical_smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "normalized_disease": "sickle cell disease",
+    "example_smiles": "COCCC1=CC=C(OCC(O)CNC(C)C)C=C1",
+    "example_disease": "sickle cell disease",
+    "drugs": [
+      "propranolol"
+    ],
+    "nctids": [
+      "NCT02012777"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      13646
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000688",
+    "label": 1,
+    "canonical_smiles": "CN(C)CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+    "normalized_disease": "obsessive compulsive disorder",
+    "example_smiles": "CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1",
+    "example_disease": "obsessive compulsive disorder",
+    "drugs": [
+      "duloxetine"
+    ],
+    "nctids": [
+      "NCT00464698"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4470
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000896",
+    "label": 0,
+    "canonical_smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+    "normalized_disease": "congestive heart failure",
+    "example_smiles": "COCCC1=CC=C(OCC(O)CNC(C)C)C=C1",
+    "example_disease": "congestive heart failure",
+    "drugs": [
+      "beta blocker (carvedilol or metoprolol succinate)"
+    ],
+    "nctids": [
+      "NCT00433043"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      4084
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000873",
+    "label": 1,
+    "canonical_smiles": "COC(=O)[C@]12CCC(C)(C)C[C@H]1[C@H]1C(=O)C=C3[C@@]4(C)C=C(C#N)C(=O)C(C)(C)[C@@H]4CC[C@@]3(C)[C@]1(C)CC2",
+    "normalized_disease": "diabetic nephropathy",
+    "example_smiles": "COC(=O)[C@]12CCC(C)(C)C[C@H]1[C@H]1C(=O)C=C3[C@@]4(C)C=C(C#N)C(=O)C(C)(C)[C@@H]4CC[C@@]3(C)[C@]1(C)CC2",
+    "example_disease": "diabetic nephropathy",
+    "drugs": [
+      "rta 402 (bardoxolone methyl)"
+    ],
+    "nctids": [
+      "NCT00664027"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      6580
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002361",
+    "label": 1,
+    "canonical_smiles": "S1SSSSSSS1",
+    "normalized_disease": "atrial fibrillation",
+    "example_smiles": "S1SSSSSSS1",
+    "example_disease": "atrial fibrillation",
+    "drugs": [
+      "warfarin"
+    ],
+    "nctids": [
+      "NCT01695824"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      12023
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002123",
+    "label": 1,
+    "canonical_smiles": "O=C([O-])CCCO.[Na+]",
+    "normalized_disease": "narcolepsy",
+    "example_smiles": "[Na+].OCCCC([O-])=O",
+    "example_disease": "narcolepsy",
+    "drugs": [
+      "sodium oxybate"
+    ],
+    "nctids": [
+      "NCT00049803"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      311
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000716",
+    "label": 1,
+    "canonical_smiles": "CN/C(=C\\[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1",
+    "normalized_disease": "diabetic retinopathy",
+    "example_smiles": "CN\\C(NCCSCC1=CC=C(CN(C)C)O1)=C/[N+]([O-])=O",
+    "example_disease": "diabetic retinopathy",
+    "drugs": [
+      "ranibizumab"
+    ],
+    "nctids": [
+      "NCT01223612"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9092
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000580",
+    "label": 0,
+    "canonical_smiles": "CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1Cc2ccccc2C[C@H]1C(=O)O",
+    "normalized_disease": "multiple myeloma in relapse",
+    "example_smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N1CC2=CC=CC=C2C[C@H]1C(O)=O",
+    "example_disease": "multiple myeloma in relapse",
+    "drugs": [
+      "combination therapy"
+    ],
+    "nctids": [
+      "NCT01889420"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      13067
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002268",
+    "label": 0,
+    "canonical_smiles": "O=P1(N(CCCl)CCCl)NCCCO1",
+    "normalized_disease": "lupus nephritis",
+    "example_smiles": "ClCCN(CCCl)P1(=O)NCCCO1",
+    "example_disease": "lupus nephritis",
+    "drugs": [
+      "cyclophosphamide"
+    ],
+    "nctids": [
+      "NCT01539902"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      11161
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001122",
+    "label": 1,
+    "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "normalized_disease": "malignant mesothelioma",
+    "example_smiles": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+    "example_disease": "malignant mesothelioma",
+    "drugs": [],
+    "nctids": [
+      "NCT00003034"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      46
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002404",
+    "label": 1,
+    "canonical_smiles": "[NH3]->[Pt](<-[NH3])([Cl])[Cl]",
+    "normalized_disease": "gastric cancer",
+    "example_smiles": "[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]",
+    "example_disease": "gastric cancer",
+    "drugs": [
+      "cetuximab, cisplatin, capecitabine"
+    ],
+    "nctids": [
+      "NCT00477711"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4612
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001079",
+    "label": 1,
+    "canonical_smiles": "COc1ccc(C(CN(C)C)C2(O)CCCCC2)cc1",
+    "normalized_disease": "major depressive disorder",
+    "example_smiles": "COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1",
+    "example_disease": "major depressive disorder",
+    "drugs": [],
+    "nctids": [
+      "NCT00087737"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      667
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000987",
+    "label": 1,
+    "canonical_smiles": "CO[C@H]1O[C@H](COS(=O)(=O)O)[C@@H](O[C@@H]2O[C@@H](C(=O)O)[C@@H](O[C@H]3O[C@H](COS(=O)(=O)O)[C@@H](O[C@@H]4O[C@H](C(=O)O)[C@@H](O[C@H]5O[C@H](COS(=O)(=O)O)[C@@H](O)[C@H](O)[C@H]5NS(=O)(=O)O)[C@H](O)[C@H]4O)[C@H](OS(=O)(=O)O)[C@H]3NS(=O)(=O)O)[C@H](O)[C@H]2OS(=O)(=O)O)[C@H](O)[C@H]1NS(=O)(=O)O",
+    "normalized_disease": "acute coronary syndromes",
+    "example_smiles": "CO[C@H]1O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]2O[C@H]([C@@H](O[C@H]3O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]4O[C@@H]([C@@H](O[C@H]5O[C@H](COS(O)(=O)=O)[C@@H](O)[C@H](O)[C@H]5NS(O)(=O)=O)[C@H](O)[C@H]4O)C(O)=O)[C@H](OS(O)(=O)=O)[C@H]3NS(O)(=O)=O)[C@H](O)[C@H]2OS(O)(=O)=O)C(O)=O)[C@H](O)[C@H]1NS(O)(=O)=O",
+    "example_disease": "acute coronary syndromes",
+    "drugs": [
+      "switching from fondaparinux to bivalirudin or unfractionated heparin"
+    ],
+    "nctids": [
+      "NCT00464087"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4463
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001885",
+    "label": 0,
+    "canonical_smiles": "NC(=O)CNC1Cc2ccccc2C1",
+    "normalized_disease": "cough",
+    "example_smiles": "NC(=O)CNC1CC2=CC=CC=C2C1",
+    "example_disease": "cough",
+    "drugs": [
+      "indantadol"
+    ],
+    "nctids": [
+      "NCT01401673"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      10305
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001407",
+    "label": 1,
+    "canonical_smiles": "Cc1ccc(-c2nc3ccc(C)cn3c2CC(=O)N(C)C)cc1",
+    "normalized_disease": "sleep disorders",
+    "example_smiles": "CN(C)C(=O)CC1=C(N=C2C=CC(C)=CN12)C1=CC=C(C)C=C1",
+    "example_disease": "sleep disorders",
+    "drugs": [
+      "zolpidem",
+      "zolpidem sl800750"
+    ],
+    "nctids": [
+      "NCT01024192",
+      "NCT01097382"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      7626,
+      8166
+    ],
+    "trial_count": 2,
+    "record_count": 2
+  },
+  {
+    "pair_id": "PAIR-001067",
+    "label": 0,
+    "canonical_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+    "normalized_disease": "tumors",
+    "example_smiles": "COC1=C(OCCCN2CCOCC2)C=C2C(NC3=CC(Cl)=C(F)C=C3)=NC=NC2=C1",
+    "example_disease": "tumors",
+    "drugs": [
+      "gefitinib"
+    ],
+    "nctids": [
+      "NCT00127829"
+    ],
+    "phases": [
+      "phase 1"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1115
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002027",
+    "label": 1,
+    "canonical_smiles": "Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1",
+    "normalized_disease": "leukemia",
+    "example_smiles": "NC1=NC(=O)N(C=N1)[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
+    "example_disease": "leukemia",
+    "drugs": [
+      "5-azacitidine"
+    ],
+    "nctids": [
+      "NCT00660400"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      6540
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000670",
+    "label": 0,
+    "canonical_smiles": "CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]1CCOC1",
+    "normalized_disease": "non small cell lung cancer",
+    "example_smiles": "CN(C)C\\C=C\\C(=O)NC1=C(O[C@H]2CCOC2)C=C2N=CN=C(NC3=CC(Cl)=C(F)C=C3)C2=C1",
+    "example_disease": "non small cell lung cancer",
+    "drugs": [
+      "afatinib"
+    ],
+    "nctids": [
+      "NCT01746251"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "active, not recruiting"
+    ],
+    "source_row_ids": [
+      12326
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000013",
+    "label": 0,
+    "canonical_smiles": "C#C[C@]1(O)CC[C@H]2[C@@H]3CCc4cc(O)ccc4[C@H]3CC[C@@]21C",
+    "normalized_disease": "oral contraceptive",
+    "example_smiles": "[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3",
+    "example_disease": "oral contraceptive",
+    "drugs": [],
+    "nctids": [
+      "NCT00471991"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4546
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001957",
+    "label": 1,
+    "canonical_smiles": "N[C@@H](Cc1ccccn1)c1ccccc1",
+    "normalized_disease": "depression",
+    "example_smiles": "N[C@@H](CC1=CC=CC=N1)C1=CC=CC=C1",
+    "example_disease": "depression",
+    "drugs": [
+      "azd6765"
+    ],
+    "nctids": [
+      "NCT00491686"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      4765
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001542",
+    "label": 0,
+    "canonical_smiles": "Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2ccccc2C#N)c1=O",
+    "normalized_disease": "atherosclerosis",
+    "example_smiles": "CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O",
+    "example_disease": "atherosclerosis",
+    "drugs": [],
+    "nctids": [
+      "NCT01258907"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      9356
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001126",
+    "label": 1,
+    "canonical_smiles": "COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1",
+    "normalized_disease": "ovarian neoplasms",
+    "example_smiles": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+    "example_disease": "ovarian neoplasms",
+    "drugs": [
+      "pegylated liposomal doxorubicin hydrochloride"
+    ],
+    "nctids": [
+      "NCT00727961"
+    ],
+    "phases": [
+      "phase 4"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      7178
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001776",
+    "label": 0,
+    "canonical_smiles": "Cn1c(=O)n(-c2ccc(C(C)(C)C#N)cc2)c2c3cc(-c4cnc5ccccc5c4)ccc3ncc21",
+    "normalized_disease": "renal cancer",
+    "example_smiles": "CN1C(=O)N(C2=C1C=NC1=CC=C(C=C21)C1=CN=C2C=CC=CC2=C1)C1=CC=C(C=C1)C(C)(C)C#N",
+    "example_disease": "renal cancer",
+    "drugs": [
+      "bez235"
+    ],
+    "nctids": [
+      "NCT01453595"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      10585
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-002003",
+    "label": 1,
+    "canonical_smiles": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)n1",
+    "normalized_disease": "acute myelogenous leukemia",
+    "example_smiles": "NC1=NC(=O)N(C=C1)[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O",
+    "example_disease": "acute myelogenous leukemia",
+    "drugs": [
+      "cytarabine plus daunorubicin [arm ii (ad regimen)]"
+    ],
+    "nctids": [
+      "NCT01145846"
+    ],
+    "phases": [
+      "phase 3"
+    ],
+    "statuses": [
+      "unknown status"
+    ],
+    "source_row_ids": [
+      8518
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000091",
+    "label": 0,
+    "canonical_smiles": "C=CC1=C(C)c2cc3[n-]c(cc4nc(cc5[n-]c(cc1n2)c(C)c5CCC(=O)O)C(CCC(=O)O)=C4C)c(C)c3C=C.[Cl-].[Fe+3]",
+    "normalized_disease": "myelodysplastic syndrome",
+    "example_smiles": "[Cl-].[Fe+3].CC1=C(CCC(O)=O)/C2=C/C3=N/C(=C\\C4=C(C)C(C=C)=C([N-]4)/C=C4\\N=C(\\C=C\\1/[N-]\\2)C(C=C)=C4C)/C(C)=C3CCC(O)=O",
+    "example_disease": "myelodysplastic syndrome",
+    "drugs": [
+      "panhematin"
+    ],
+    "nctids": [
+      "NCT00467610"
+    ],
+    "phases": [
+      "phase 2"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      4503
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-000553",
+    "label": 0,
+    "canonical_smiles": "CCN1CCN(Cc2ccc(-c3cc4c(=N[C@H](C)c5ccccc5)nc[nH]c4[nH]3)cc2)CC1",
+    "normalized_disease": "glioblastoma multiforme",
+    "example_smiles": "[H][C@](C)(N=C1N=CNC2=C1C=C(N2)C1=CC=C(CN2CCN(CC)CC2)C=C1)C1=CC=CC=C1",
+    "example_disease": "glioblastoma multiforme",
+    "drugs": [
+      "aee788"
+    ],
+    "nctids": [
+      "NCT00116376"
+    ],
+    "phases": [
+      "phase 1/phase 2"
+    ],
+    "statuses": [
+      "completed"
+    ],
+    "source_row_ids": [
+      1002
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  },
+  {
+    "pair_id": "PAIR-001246",
+    "label": 0,
+    "canonical_smiles": "C[C@H](Cn1cnc2c(N)ncnc21)OCP(=O)(O)O",
+    "normalized_disease": "hiv infection",
+    "example_smiles": "C[C@H](CN1C=NC2=C1N=CN=C2N)OCP(O)(O)=O",
+    "example_disease": "hiv infections",
+    "drugs": [
+      "highly active antiretroviral therapy: lopinavir/ritonavir, lamivudine, zidovudine, efavirenz, tenofovir disoproxil fumarate, emtricitabine"
+    ],
+    "nctids": [
+      "NCT01583439"
+    ],
+    "phases": [
+      "n/a"
+    ],
+    "statuses": [
+      "terminated"
+    ],
+    "source_row_ids": [
+      11409
+    ],
+    "trial_count": 1,
+    "record_count": 1
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "seed": 13,
+  "random": {
+    "train": {
+      "rows": 1512,
+      "label_counts": {
+        "1": 774,
+        "0": 738
+      },
+      "unique_drugs": 669,
+      "unique_diseases": 567
+    },
+    "val": {
+      "rows": 216,
+      "label_counts": {
+        "0": 105,
+        "1": 111
+      },
+      "unique_drugs": 156,
+      "unique_diseases": 168
+    },
+    "test": {
+      "rows": 432,
+      "label_counts": {
+        "1": 221,
+        "0": 211
+      },
+      "unique_drugs": 270,
+      "unique_diseases": 252
+    },
+    "drug_overlap": {
+      "train_val": 101,
+      "train_test": 156,
+      "val_test": 62
+    }
+  },
+  "drug_disjoint": {
+    "train": {
+      "rows": 1512,
+      "label_counts": {
+        "1": 745,
+        "0": 767
+      },
+      "unique_drugs": 362,
+      "unique_diseases": 594
+    },
+    "val": {
+      "rows": 216,
+      "label_counts": {
+        "0": 96,
+        "1": 120
+      },
+      "unique_drugs": 193,
+      "unique_diseases": 145
+    },
+    "test": {
+      "rows": 432,
+      "label_counts": {
+        "0": 191,
+        "1": 241
+      },
+      "unique_drugs": 273,
+      "unique_diseases": 237
+    },
+    "drug_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    }
+  }
+}
