@@ -1,160 +1,243 @@
 # TreatAgent
 
-TreatAgent is an evidence-driven multi-agent system for drug-disease treatment prediction. The current main path combines local ADMET, DTI, and clinical-prior tools with a dynamic orchestrator, structured evidence graph, calibrated scoring, optional interactive HTML reports, and optional vector-based long-term memory retrieval.
+TreatAgent is an evidence-guided multi-agent system for prioritizing drug
+repurposing candidates. Given a drug represented by SMILES and a disease name,
+TreatAgent gathers complementary biomedical evidence, organizes it into a
+structured evidence graph, and returns a calibrated treatment-potential score
+with an auditable explanation.
 
-This standalone release package includes the full processed benchmark and the
-runtime expert data needed by the local experts:
+The repository contains the runnable TreatAgent implementation, benchmark
+splits, local expert knowledge indexes, model assets, analysis scripts, and
+tests used for the accompanying manuscript.
 
-- `data/benchmark/`: processed benchmark, splits, split inputs and benchmark scripts
-- `data/drugcentral/drugkb.jsonl`: processed DrugKB runtime index
-- `data/diseasekb/diseasekb.jsonl`: processed DiseaseKB runtime index
-- `data/clinical/disease_success_ratio.json`: disease-level clinical prior
-- `data/dti/uniprot_sequence_cache.json`: UniProt sequence cache for DTI
-- `assets/models/model_MPNN_CNN/`: local DeepPurpose DTI model
-- `assets/templates/report_template.html`: optional HTML report template
+## Workflow
 
-Before pushing this repository to GitHub, install Git LFS and track the large
-runtime data files listed in `.gitattributes`.
+<p align="center">
+  <img src="assets/figures/figure1_treatagent_framework.png" alt="TreatAgent workflow" width="900">
+</p>
 
-## Current Modes
+TreatAgent evaluates each drug-disease pair through five local expert modules:
 
-### `multiagent`
-- Main production path.
-- Runs the orchestrator-based workflow through `python -m treatagent.cli`.
-- Supports both hybrid mode and fully local mode.
-- Use `--backbone local` to disable LLM synthesis and force fully local inference.
-- Supports `--generate_report` and `--use_memory`.
+- DiseaseKB expert: disease targets, pathways, mechanisms, and therapeutic priors.
+- DrugKB expert: drug indications, known targets, mechanisms, and prior use.
+- ADMET expert: molecular property and developability signals.
+- DTI expert: drug-target interaction estimates using the included local model.
+- Clinical expert: disease-level clinical success prior.
 
-### `direct`
-- Single-shot LLM baseline.
-- Requires `URL_VALUE` and `API_VALUE` environment variables for the remote API endpoint.
+The orchestrator selects evidence sources, stores typed evidence in an evidence
+graph, computes argument-level features, and produces a final probability and
+binary prediction. Optional report generation writes an interactive HTML
+summary for each case.
 
-### `cot`
-- Chain-of-thought style LLM baseline.
-- Also requires `URL_VALUE` and `API_VALUE` environment variables.
+## Repository Contents
+
+- `treatagent/`: core package, CLI, orchestration, experts, reporting, and memory.
+- `data/benchmark/`: benchmark records, splits, and CLI-ready split inputs.
+- `data/drugcentral/drugkb.jsonl`: DrugKB runtime index.
+- `data/diseasekb/diseasekb.jsonl`: DiseaseKB runtime index.
+- `data/clinical/disease_success_ratio.json`: clinical prior used by the local Clinical expert.
+- `data/dti/uniprot_sequence_cache.json`: UniProt sequence cache used by the DTI expert.
+- `assets/models/model_MPNN_CNN/`: local DeepPurpose DTI model.
+- `assets/templates/report_template.html`: HTML report template.
+- `experiments/`: model scoring, calibration, ablation, and analysis utilities.
+- `scripts/`: benchmark, baseline, figure, reporting, and experiment scripts.
+- `tests/`: lightweight unit tests for orchestration and scoring utilities.
+
+Large runtime files are tracked with Git LFS. After cloning, run `git lfs pull`
+if the large files were not downloaded automatically.
 
 ## Installation
+
+Clone the repository with Git LFS enabled:
+
+```bash
+git lfs install
+git clone https://github.com/xinyaolai9-oss/TreatAgent-code.git
+cd TreatAgent-code
+git lfs pull
+```
+
+Create the recommended Conda environment:
+
+```bash
+conda env create -f environment.yml
+conda activate treatagent
+```
+
+Alternatively, install with pip in an existing Python 3.10 environment:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Core local dependencies:
-- `admet_ai`
-- `DeepPurpose==0.1.5`
-- `chromadb`
-- `sentence-transformers`
+## Input Format
 
-## Main Workflow
+TreatAgent reads a JSON list of drug-disease records. Each record should include
+at least `smiles` and `disease`; benchmark files also include labels and drug
+metadata.
 
-Input:
-- `SMILES`
-- `disease name`
-
-Loop:
-1. Planner inspects current evidence.
-2. Planner selects the next expert or stops.
-3. Expert returns structured evidence.
-4. Evidence is added into the graph.
-5. Synthesis produces a raw score and explanation.
-6. Calibrator maps the raw score to a probability.
-7. Optional report generation writes an HTML dashboard.
-8. Optional memory retrieval/storage uses ChromaDB plus sentence embeddings.
-
-## Run
-
-### Standard multi-agent inference
-
-```bash
-python -m treatagent.cli --json_path data/benchmark/split_inputs/drug_disjoint_test.json --method multiagent --backbone gpt-4o
+```json
+[
+  {
+    "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    "disease": "colorectal cancer",
+    "label": 1,
+    "drug_names": ["aspirin"]
+  }
+]
 ```
 
-### Multi-agent with HTML reports
+Ready-to-run benchmark inputs are available under
+`data/benchmark/split_inputs/`, including:
+
+- `drug_disjoint_test.json`
+- `random_test.json`
+- `temporal_test.json`
+- `temporal_submit_test.json`
+
+## Quick Start
+
+Run the default evidence-graph TreatAgent path on the drug-disjoint test split:
 
 ```bash
-python -m treatagent.cli --json_path data/benchmark/split_inputs/drug_disjoint_test.json --method multiagent --backbone gpt-4o --generate_report
+python -m treatagent.cli \
+  --json_path data/benchmark/split_inputs/drug_disjoint_test.json \
+  --method multiagent \
+  --agent_version eg \
+  --backbone local
 ```
 
-### Fully local multi-agent inference
+Generate per-case HTML reports:
 
 ```bash
-python -m treatagent.cli --json_path data/benchmark/split_inputs/drug_disjoint_test.json --method multiagent --backbone local
+python -m treatagent.cli \
+  --json_path data/benchmark/split_inputs/drug_disjoint_test.json \
+  --method multiagent \
+  --agent_version eg \
+  --backbone local \
+  --generate_report
 ```
 
-This mode disables LLM synthesis and uses only local experts plus heuristic synthesis.
-
-### Multi-agent with report and long-term memory
+Resume an interrupted run:
 
 ```bash
-python -m treatagent.cli --json_path data/benchmark/split_inputs/drug_disjoint_test.json --method multiagent --backbone gpt-4o --generate_report --use_memory
+python -m treatagent.cli \
+  --json_path data/benchmark/split_inputs/drug_disjoint_test.json \
+  --method multiagent \
+  --agent_version eg \
+  --backbone local \
+  --resume
 ```
 
-### Resume from checkpoint
+Enable vector-memory retrieval and storage:
 
 ```bash
-python -m treatagent.cli --json_path data/benchmark/split_inputs/drug_disjoint_test.json --method multiagent --backbone gpt-4o --generate_report --use_memory --resume
+python -m treatagent.cli \
+  --json_path data/benchmark/split_inputs/drug_disjoint_test.json \
+  --method multiagent \
+  --agent_version eg \
+  --backbone local \
+  --use_memory
 ```
 
-## Output Directories
+## Running LLM-Augmented Modes
 
-- `results/<model>/results_multiagent.json`: batch prediction outputs
-- `reports/`: self-contained HTML dashboards
-- `memory_db/`: ChromaDB persistent vector memory
-- `assets/models/model_MPNN_CNN/`: local DeepPurpose DTI model directory
-- `assets/templates/report_template.html`: HTML report template
-- `checkpoints/`: resumable progress checkpoints
+The default `eg` configuration can run with local experts and the evidence-graph
+scorer. LLM-augmented settings are available through `agent_version=full` or
+`agent_version=ls` when an API endpoint is configured.
 
-## Output Fields
+```bash
+export URL_VALUE="https://your-api-endpoint"
+export API_VALUE="your-api-key"
 
-The current `multiagent` result entries may include:
+python -m treatagent.cli \
+  --json_path data/benchmark/split_inputs/drug_disjoint_test.json \
+  --method multiagent \
+  --agent_version full \
+  --backbone gpt-4o
+```
+
+On PowerShell:
+
+```powershell
+$env:URL_VALUE = "https://your-api-endpoint"
+$env:API_VALUE = "your-api-key"
+```
+
+Supported multi-agent versions:
+
+- `eg`: evidence graph with argument-level scoring.
+- `full`: LLM-assisted planner/judge path when API access is available.
+- `ls`: LLM synthesis scorer baseline when API access is available.
+
+The `direct`, `cot`, and `rag` baselines are also available through `--method`.
+
+## Outputs
+
+Batch runs write timestamped JSON files to:
+
+```text
+results/<backbone>/results_<method>_<agent_version>_<timestamp>.json
+```
+
+Result records may include:
+
 - `prediction_binary`
 - `raw_score`
 - `calibrated_probability`
+- `argument_probability`
+- `final_score_source`
 - `synthesis_explanation`
 - `trajectory`
 - `evidence_graph`
 - `expert_outputs`
 - `report_path`
-- `report_summary`
 - `memory_similar_cases`
-- `stored_case_id`
 
-## Validation Checklist
+Additional runtime directories:
 
-- [ ] Running with `--generate_report` creates HTML files under `reports/`.
-- [ ] Opening a generated report shows the metric cards, ADMET radar chart, DTI gauge, clinical progress bar, evidence table, and synthesis explanation.
-- [ ] Running with `--use_memory` creates `memory_db/`.
-- [ ] Re-running with `--use_memory` increases stored case count in the vector database.
-- [ ] Result JSON contains `report_path` and `memory_similar_cases`.
-- [ ] Result JSON no longer depends on `memory_update`.
+- `reports/`: generated HTML reports when `--generate_report` is used.
+- `checkpoints/`: resumable checkpoints.
+- `memory_db/`: ChromaDB vector store when `--use_memory` is used.
 
-## Notes
+## Benchmark And Analysis Utilities
 
-- The current `multiagent` path is local-tool driven and does not need API keys.
-- `--backbone local` explicitly forces fully local inference and skips all LLM synthesis calls.
-- `direct` and `cot` still require remote API configuration.
-- `orchestrator_system.py` is now a compatibility layer that re-exports the enhanced orchestrator API.
-
-## Data
-
-The current benchmark pipeline is submitted through:
+Benchmark construction scripts are under `data/benchmark/scripts/`:
 
 ```bash
 bash data/benchmark/scripts/run_benchmark_pipeline.sh
 ```
 
-The benchmark preparation steps themselves live under `data/benchmark/scripts/`. The legacy single-disease/single-SMILES extractor is available through:
-
-```bash
-python data/benchmark/scripts/extract_dataset_legacy.py
-```
-
-Knowledge-base builders live beside their data snapshots:
+Knowledge-index builders are included with their corresponding data folders:
 
 ```bash
 python data/drugcentral/build_drugkb_jsonl.py
 python data/diseasekb/build_diseasekb_jsonl.py
 ```
+
+Experiment and analysis utilities are organized under:
+
+- `experiments/orchestration/`: scoring, calibration, and ablation utilities.
+- `scripts/analysis/`: figure rendering and final-result analysis.
+- `scripts/baselines/`: baseline submission helpers.
+- `scripts/full/` and `scripts/eg/`: TreatAgent experiment runners.
+
+## Testing
+
+Run the lightweight test suite from the repository root:
+
+```bash
+python -m pytest tests
+```
+
+## Citation
+
+Citation metadata is provided in `CITATION.cff`. If you use TreatAgent, cite the
+archived software release and the associated manuscript when available.
+
+## License
+
+See `LICENSE`.
 
 ## Acknowledgements
 
